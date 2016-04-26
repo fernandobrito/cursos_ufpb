@@ -1,0 +1,1418 @@
+{
+  "curriculum": {
+    "id": "0282007",
+    "name": "MEDICINA - João Pessoa - Presencial - MT - OUTRO TIPO DE GRAU ACADÊMICO",
+    "faculty": "CENTRO DE CIÊNCIAS MÉDICAS (CCM) (11.00.60)",
+    "semesters": 12,
+    "courses": [
+      {
+        "id": "1107244",
+        "name": "MCOP2INFORMATICA APLICADA A SAUDE I",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1107245",
+        "name": "MCOP3 INFORMATICA APLICADA A SAUDE II",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611189",
+        "name": "MCOP2 FITOTERAPIA II",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611190",
+        "name": "MCOP3 FUNDAMENTOS DE ACUPUNTURA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611191",
+        "name": "MCOP3 MOD INTEG MEC INTERM ENTRE O NP",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801125",
+        "name": "MOCP4 MOD INTEG EM CLINICA CIRURGICA IV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801126",
+        "name": "MOCP5 MOD INTEG EM CLINICA CIRURGICA  V",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801127",
+        "name": "MOCP6 MOD INTEG EM CLINICA CIRURGICA  VI",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801128",
+        "name": "MOCP7 MOD INTEG EM CLINICA CIRURGICA VII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801129",
+        "name": "MOCP8 MOD INTEG EM CLINICA CIRURG VIII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801130",
+        "name": "MCF6 TOPICOS DE FORMACAO GERAL VI",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "21h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802147",
+        "name": "MCOP4 MODULO INTEG CLINICA MEDICA IV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802148",
+        "name": "MCOP5 HEPATOLOGIA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802149",
+        "name": "MCOP5 MODULO INTEG CLINICA MEDICA V",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802150",
+        "name": "MCOP6 METODOS DIAGNOSTICOS EM CARDIOLOG",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802151",
+        "name": "MCOP6METOD INTEG CLINICA MEDICA VI",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802152",
+        "name": "MCOP7NUTRICAO CLINICA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802153",
+        "name": "MCOP7MODULO INTEG CLINICA MEDICA VII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802154",
+        "name": "MCOP8TRANSTORNO EM ALIMENTACAO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802155",
+        "name": "MCOP8FISIATRIA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802156",
+        "name": "MCOP8MODULO INTEG CLINICA MEDICA VIII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802157",
+        "name": "MCF3TOPICOS DE FORMACAO GERAL III",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "22h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802158",
+        "name": "MCF4TOPICOS DE FORMACAO GERAL IV",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "22h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803109",
+        "name": "MCOP4MOD INTEG OBST E GINECOLOGIA IV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803110",
+        "name": "MCOP5MOD INTEG OBST E GINECOLOGIA V",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803111",
+        "name": "MCOP6MEDICINA FETAL",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803112",
+        "name": "MCOP6TRANSTORNOS ENDOCRINOS NA GESTACAO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803113",
+        "name": "MCOP6DOENCAS DA MAMA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803114",
+        "name": "MCOP6MOD INTEG OBSTETRICIA GINECOL VI",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803115",
+        "name": "MCOP7MOD INTEG OBSTETRICIA GINECOL VII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803116",
+        "name": "MCOP8MOD INTEG OBSTETRICIA GINECOL VIII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803117",
+        "name": "MCF5TOPICOS DE FORMACAO GERAL V",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "21h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804110",
+        "name": "MCOP4 DOENCAS GENETICAS PREVALENTES",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804111",
+        "name": "MCOP4 MOD INTEG EM PEDIATRIA ADOLESC IV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804112",
+        "name": "MCOP5 MOD INTEG EM PEDIATRIA ADOLESC V",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804113",
+        "name": "MCOP6 MOD INTEG EM PEDIATRIA ADOLESC VI",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804114",
+        "name": "MCOP7 MOD INTEG EM PEDIATRIA ADOLESC VII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804115",
+        "name": "MCOP8 MOD INTEG EM PEDIAT ADOLESC VIII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804116",
+        "name": "MCF2 TOPICOS DE FORMACAO GERAL II",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "21h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805126",
+        "name": "MCOP3 EPIDERMIOLOGIA SERV DE SAUDE",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805127",
+        "name": "MCOP4 SAUDE DO TRABALHADOR",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805128",
+        "name": "MCOP4 MOD INTERG SAUDE COLETIVA IV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805130",
+        "name": "MCOP5 MOD INTERG SAUDE COLETIVA  V",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805131",
+        "name": "MCOP6 MOD INTERG SAUDE COLETIVA VI",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(2cr) aula 0h(0cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805132",
+        "name": "MCOP7 MOD INTERG SAUDE COLETIVA VII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805133",
+        "name": "MCOP8 MOD INTERG SAUDE COLETIVA VIII",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805134",
+        "name": "MCF1 TOPICOS DE FORMACAO GERAL I",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805138",
+        "name": "MCOP2INFORMATICA APLICADA A SAUDE I",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805139",
+        "name": "MCOP3 INFORMATICA APLICADA A SAUDE II",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611182",
+        "name": "MCOP1  FITOTERAPIA I",
+        "category": "Complementar Optativa",
+        "semester": 1,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804100",
+        "name": "MCO1METODOLOGIA DO TRABALHO CIENTIFICO",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805113",
+        "name": "MCOP1ESPIRITUALIDADE E SAUDE",
+        "category": "Complementar Optativa",
+        "semester": 1,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1104210",
+        "name": "MIV6  NUTRICAO E METABOLISMO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1104211",
+        "name": "MIV5  A CELULADA MOL A ORG DOS TECIDOS",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "72h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1610175",
+        "name": "MIV9  SIST DE SUSTENTACAO E MOVIMENTO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "72h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1610197",
+        "name": "MIV7  SISTEMA NERVOSO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "72h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1610198",
+        "name": "MIV8  SISTEMA SENSORIAL",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802100",
+        "name": "MHB1FORMACAO MEDICA",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804117",
+        "name": "MIV4  ONTOGENESE E FILOG DO SER HUMANO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "24h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805100",
+        "name": "MIV2SAUDE COLETIVA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "12h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805101",
+        "name": "MIV3O HOMEM COMO SER SOCIAL",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "24h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805102",
+        "name": "MHA1SAUDE DA COMUNIDADE",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805103",
+        "name": "MIV1ACOLHIMENTO AO ESTUDANTE",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "12h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611183",
+        "name": "MCOP2  HOMEOPATIA",
+        "category": "Complementar Optativa",
+        "semester": 2,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611184",
+        "name": "MIV11  SISTEMA CARDIOVASCULAR",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611185",
+        "name": "MIV14  SISTEMA NEFROUROGENITAL",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "72h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611210",
+        "name": "MIV10  SISTEMA ENDOCRINO E REPRODUTOR",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "72h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611211",
+        "name": "MIV12  SISTEMA RESPIRATORIO",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611212",
+        "name": "MIV13  SISTEMA DIGESTORIO",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802116",
+        "name": "MHB2DESENV DA PERS E CICLO DE VIDA",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802117",
+        "name": "MCO2PESQUISA APLICADA A MEDICINA",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805112",
+        "name": "MHA2SISTEMA DE SAUDE ATENCAO PRIMARIA",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1610186",
+        "name": "MCOP1 MOD INTEGR  EM CIENC ESTRUT FUNC I",
+        "category": "Complementar Optativa",
+        "semester": 3,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1610187",
+        "name": "MCOP2 MOD INTEGR EM CIENC ESTRUT FUNC II",
+        "category": "Complementar Optativa",
+        "semester": 3,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611186",
+        "name": "MIV18MECANISMOS GERAIS DE DEFESA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "120h(8cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611187",
+        "name": "MIV19MECANISMOS GERAIS DE AGRESSAO",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "120h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1611188",
+        "name": "MIV20FARMACOLOGIA BÁSICA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802123",
+        "name": "MIV17MORFOFISIOLOGIA DO ENVELHECIMENTO",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "24h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802124",
+        "name": "MHB3HISTORIA DA MEDICINA E DA BIOETICA",
+        "category": "Complementar Obrigatória",
+        "semester": 3,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804105",
+        "name": "MIV16CRESC E DES DA C E DO ADOLESCEN",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "24h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805117",
+        "name": "MIV15EPIDEMIOLOGIA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805118",
+        "name": "MHA3SIST DE S ATENCAO SEC E TERCIARIA",
+        "category": "Complementar Obrigatória",
+        "semester": 3,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802121",
+        "name": "MCOP4MODULO INTEGRAD EM CLIN MEDICA IV",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "0h(0cr) aula 32h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801123",
+        "name": "MIV24 BASES TEC DOS PROC CIRUR E ANEST",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "128h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801124",
+        "name": "MIV25 TEC PRIM ATEND URGENCIAS E EMERGEN",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802125",
+        "name": "MIV21SEMIOLOGIA DO ADUL DA CRIAN E OBST",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "128h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802126",
+        "name": "MIV22EXAMES COMPLEM NA PRATICA MEDICA",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802127",
+        "name": "MIV23INT AOS METODOS DIAG POR IMAGEM",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "48h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802128",
+        "name": "MHB4O ESTUDANTE DE MEDIC E O PACIENTE",
+        "category": "Complementar Obrigatória",
+        "semester": 4,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805119",
+        "name": "MHA4ATENCAO A SAUDE DA FAMILIA I",
+        "category": "Complementar Obrigatória",
+        "semester": 4,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801117",
+        "name": "MIV29DOENCAS PREV DA CABECA E PESCOSO",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802129",
+        "name": "MIV26DOENCAS PREV DO SIT DIG ABDOMEN",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "112h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802130",
+        "name": "MIV28DOENCAS PREVAL DO SIST ENDOCRINO",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "64h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802131",
+        "name": "MHB5RELACAO MEDICOPACIENTE I",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805120",
+        "name": "MHA5 ATENCAO A SAUDE DA FAMILIA II",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "96h(6cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805121",
+        "name": "MIV30DOENCAS PREV DO SIST TEGUMENTAR",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "80h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805129",
+        "name": "MIV27DOENCAS PREV DO SIST RESP E TORAX",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802132",
+        "name": "MIV31DOEN P DO S CARDIOCIRC E VAS PER",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "128h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802133",
+        "name": "MIV32DOENCAS PREV DO SIST NEFROUROGENI",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802134",
+        "name": "MHB6RELACAO MEDICO PACIENTE II",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803104",
+        "name": "MIV33ASSISTENCIA A SAUDE DA MULHER",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "80h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803105",
+        "name": "MIV34ASSISTENCIA MATERNA E NEONATAL",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "80h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804118",
+        "name": "MHA6ATEND INT A SAUDE DA M E DO NEONATO",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802135",
+        "name": "MIV35DOENCAS PREV SIST HEMATOLOGICO",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802136",
+        "name": "MIV38ELEMENTROS DE MEDICINA LEGAL",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "80h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802137",
+        "name": "MHB7ETICA MEDICA E BIOETICA",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802138",
+        "name": "MCO3ELABOR DE TRAB CIENTIFICO E TCC",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804106",
+        "name": "MIV37ASSIST A SAUDE DA C E DO ADOLESC",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "112h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804107",
+        "name": "MHA7ATEND INT A S DO AD DA CR E ADOLESC",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805124",
+        "name": "MIV36DOENCAS INFECTOCONTAGIOSAS",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801103",
+        "name": "MIV40D PREV DO SIST SENS E V AEREAS SUP",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "96h(6cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801118",
+        "name": "MIV39ABORD CLIN E CIRG D E T S OSTARTI",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801119",
+        "name": "MHA8 ABORD CLIN E SOC NAS URG E EMERG",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802139",
+        "name": "MIV41DOENCAS PREV SIST NER CENT E PERIF",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802140",
+        "name": "MIV42TRANST E COND MENTAIS PREVALENTES",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "96h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802141",
+        "name": "MIV43ASSITENCIA A SAUDE DO IDOSO",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802142",
+        "name": "MHB8DIL ET NA MED MOD E NA REL MEDPACI",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "32h(0cr) aula 0h(0cr) lab.",
+        "type": "MODULO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803107",
+        "name": "MOGI1CUR OBG DE T EM SER INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 9,
+        "workload": "0h(0cr) aula 480h(32cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1803108",
+        "name": "MOGI2CUR OBG DE T EM SER INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 9,
+        "workload": "0h(0cr) aula 384h(25cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801120",
+        "name": "MCCI2CUR OB DE TREI EM S INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 10,
+        "workload": "0h(0cr) aula 384h(25cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1801131",
+        "name": "MCCI1 EST CUR OB TREIN E SERV INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 10,
+        "workload": "0h(0cr) aula 480h(32cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805123",
+        "name": "MSCI1 EST CUR OB DE T EM SERV INTERNAT",
+        "category": "Básica Profissional",
+        "semester": 10,
+        "workload": "0h(0cr) aula 480h(32cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804108",
+        "name": "MPI1 CURR OB DE T EM SERV INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 11,
+        "workload": "0h(0cr) aula 480h(32cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804109",
+        "name": "MPI2 CURR OB DE T EM SERV INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 11,
+        "workload": "0h(0cr) aula 384h(25cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1805122",
+        "name": "MSCI2 CUR OB DE T EM SERV INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 11,
+        "workload": "0h(0cr) aula 384h(25cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802122",
+        "name": "MCMI2 CURRIC OBRG TREN SER INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 12,
+        "workload": "0h(0cr) aula 384h(25cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1802143",
+        "name": "MCMI1CURRIC OBRG TREN SERINTERNATO",
+        "category": "Básica Profissional",
+        "semester": 12,
+        "workload": "0h(0cr) aula 480h(32cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1804119",
+        "name": "MEL12 TREINAMENTO EM SERVIÇO INTERNATO",
+        "category": "Básica Profissional",
+        "semester": 12,
+        "workload": "384h(25cr) aula 0h(0cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      }
+    ]
+  }
+}

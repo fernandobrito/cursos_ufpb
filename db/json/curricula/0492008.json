@@ -1,0 +1,1025 @@
+{
+  "curriculum": {
+    "id": "0492008",
+    "name": "DIREITO - João Pessoa - Presencial - N - BACHARELADO",
+    "faculty": "CENTRO DE CIÊNCIAS JURÍDICAS (CCJ) (11.00.57)",
+    "semesters": 10,
+    "courses": [
+      {
+        "id": "1403747",
+        "name": "LIBRAS  LÍNGUA BRASILEIRA DE SINAIS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501256",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO PENAL",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501233"
+        ]
+      },
+      {
+        "id": "1502212",
+        "name": "BIOETICA E BIODIREITO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502214",
+        "name": "DIREITO DE INFORMATICA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1503134",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO I",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1503135",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO II",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1503136",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO III",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1503137",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO IV",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1503138",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO V",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502213",
+        "name": "HERMENEUTICA JURIDICA",
+        "category": "Complementar Optativa",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501214",
+        "name": "CIENCIA POLITICA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502207",
+        "name": "INTRODUCAO AO DIREITO I",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502208",
+        "name": "ECONOMIA POLITICA",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502210",
+        "name": "HISTORIA E ANTROPOLOGIA JURIDICA",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502211",
+        "name": "SOCIOLOGIA GERAL JURIDICA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "90h(6cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501184",
+        "name": "DIREITOS HUMANOS",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501217",
+        "name": "DIREITO CONSTITUCIONAL I",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "45h(3cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502207"
+        ]
+      },
+      {
+        "id": "1502209",
+        "name": "DIREITOS ROMANO",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502218",
+        "name": "INTRODUCAO AO DIREITO II",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502207"
+        ]
+      },
+      {
+        "id": "1502219",
+        "name": "METODOLOGIA DO TRABALHO CIENTIFICO",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "30h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502207"
+        ]
+      },
+      {
+        "id": "1502222",
+        "name": "FILOSOFIA GERAL E JURIDICA",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "90h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502207"
+        ]
+      },
+      {
+        "id": "1501229",
+        "name": "DIREITO DOS GRUPSOCVULNERAVEIS",
+        "category": "Complementar Obrigatória",
+        "semester": 3,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501184"
+        ]
+      },
+      {
+        "id": "1501245",
+        "name": "DIREITOPOLÍTICA E DESENVOLVIMENTO",
+        "category": "Complementar Optativa",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1502246",
+        "name": "TEORIA DA ARGUMENTAÇÃO JURIDICA",
+        "category": "Complementar Optativa",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502222"
+        ]
+      },
+      {
+        "id": "1501219",
+        "name": "DIREITO PENAL I",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502218"
+        ]
+      },
+      {
+        "id": "1501220",
+        "name": "DIREITO CONSTITUCIONAL II",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "45h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501217"
+        ]
+      },
+      {
+        "id": "1502224",
+        "name": "DIREITO CIVIL I",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502218"
+        ]
+      },
+      {
+        "id": "1502225",
+        "name": "DIREITO EMPRESARIAL I",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502218"
+        ]
+      },
+      {
+        "id": "1502226",
+        "name": "PSICOLOGIA JURIDICA",
+        "category": "Complementar Obrigatória",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502218"
+        ]
+      },
+      {
+        "id": "1501246",
+        "name": "PRÁTICAS POLITICAS DE PROTE PROTEÇAO E DE DEFESA DOS DIREITOS HUMANOS",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501184",
+          "1501229"
+        ]
+      },
+      {
+        "id": "1501221",
+        "name": "DIREITO CONSTITUCIONAL III",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "45h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1501222",
+        "name": "DIREITO PENAL II",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501219"
+        ]
+      },
+      {
+        "id": "1501223",
+        "name": "DIREITO ADMINISTRATIVO I",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1502228",
+        "name": "DIREITO CIVIL II",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502224"
+        ]
+      },
+      {
+        "id": "1502229",
+        "name": "DIREITO DO TRABALHO I",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502224"
+        ]
+      },
+      {
+        "id": "1502230",
+        "name": "DIREITO EMPRESARIAL II",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502225"
+        ]
+      },
+      {
+        "id": "1501247",
+        "name": "EXCLUSÃO SOCIAL POLITICAS PÚBLICAS E DIREITOS HUMANOS",
+        "category": "Complementar Optativa",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501184",
+          "1501229"
+        ]
+      },
+      {
+        "id": "1501249",
+        "name": "TÓPICOS ESPECIAIS EM DIREITOS HUMANOS",
+        "category": "Complementar Optativa",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501184",
+          "1501229"
+        ]
+      },
+      {
+        "id": "1501254",
+        "name": "DIREITO PENAL ECONÔMICO",
+        "category": "Complementar Optativa",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501222"
+        ]
+      },
+      {
+        "id": "1501226",
+        "name": "CIENCIAS DAS FINANE DIREITO FINANCEIRO",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501223"
+        ]
+      },
+      {
+        "id": "1501227",
+        "name": "DIREITO PENAL III",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501222"
+        ]
+      },
+      {
+        "id": "1501228",
+        "name": "DIREITO ADMINISTRATIVO II",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501223"
+        ]
+      },
+      {
+        "id": "1502232",
+        "name": "DIREITO DO TRABALHO II",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502229"
+        ]
+      },
+      {
+        "id": "1502234",
+        "name": "DIREITO CIVIL III",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502228"
+        ]
+      },
+      {
+        "id": "1503128",
+        "name": "TEORIA GERAL DO PROCESSO",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502228"
+        ]
+      },
+      {
+        "id": "1501248",
+        "name": "EDUCAÇÃO EMDIREITOS HUMANOS",
+        "category": "Complementar Optativa",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501184",
+          "1501229"
+        ]
+      },
+      {
+        "id": "1501255",
+        "name": "DIREITO PENITENCIÁRIO",
+        "category": "Complementar Optativa",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501222"
+        ]
+      },
+      {
+        "id": "1501257",
+        "name": "DIREITO E ANÁLISE SÓCIOECONÔMICA",
+        "category": "Complementar Optativa",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502232"
+        ]
+      },
+      {
+        "id": "1501232",
+        "name": "MEDICINA LEGAL",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501227"
+        ]
+      },
+      {
+        "id": "1501233",
+        "name": "DIREITO PENAL IV",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501222"
+        ]
+      },
+      {
+        "id": "1502233",
+        "name": "PESQUISA APLICADA AO DIREITO",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502219"
+        ]
+      },
+      {
+        "id": "1502235",
+        "name": "DIREITO CIVIL IV",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502234"
+        ]
+      },
+      {
+        "id": "1502238",
+        "name": "ETICA GERAL E PROFISSIONAL",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502222"
+        ]
+      },
+      {
+        "id": "1503129",
+        "name": "DIREITO PROCESSUAL CIVIL I",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503128"
+        ]
+      },
+      {
+        "id": "1503130",
+        "name": "DIREITO PROCESSUAL PENAL I",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503128",
+          "1501222"
+        ]
+      },
+      {
+        "id": "1501258",
+        "name": "DIREITOS HUMANOS DO TRABALHADOR",
+        "category": "Complementar Optativa",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502232"
+        ]
+      },
+      {
+        "id": "1501231",
+        "name": "DIREITO DA SEGURIDADE SOCIAL",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "60h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502232"
+        ]
+      },
+      {
+        "id": "1501234",
+        "name": "DIREITO TRIBUTÁRIO E FISCAL I",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501226"
+        ]
+      },
+      {
+        "id": "1502236",
+        "name": "DIREITO CIVIL V",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502235"
+        ]
+      },
+      {
+        "id": "1502239",
+        "name": "DIREITO INTERNACIONAL PRIVADO",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502234"
+        ]
+      },
+      {
+        "id": "1503131",
+        "name": "DIREITO PROCESSUAL CIVIL II",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503129"
+        ]
+      },
+      {
+        "id": "1503132",
+        "name": "DIREITO PROCESSUAL PENAL II",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503130"
+        ]
+      },
+      {
+        "id": "1503133",
+        "name": "PRÁTICA JURÍDICA I",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "75h(5cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503129"
+        ]
+      },
+      {
+        "id": "1501243",
+        "name": "SOCIOLOGIA CRIMINAL",
+        "category": "Complementar Optativa",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501222",
+          "1502211"
+        ]
+      },
+      {
+        "id": "1502248",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO DO TRABALHO",
+        "category": "Complementar Optativa",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502232"
+        ]
+      },
+      {
+        "id": "1501235",
+        "name": "DIREITO TRIBUTÁRIO E FISICAL II",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501234"
+        ]
+      },
+      {
+        "id": "1501236",
+        "name": "DIREITO ECONOMICO",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1501237",
+        "name": "DIREITO INTERNACIONAL PÚBLICO",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1502240",
+        "name": "DIREITO CIVIL VI",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502236"
+        ]
+      },
+      {
+        "id": "1503139",
+        "name": "DIREITO PROCESSUAL CIVIL III",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503131"
+        ]
+      },
+      {
+        "id": "1503140",
+        "name": "DIREITO PROCESSUAL DO TRABALHO I",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503131"
+        ]
+      },
+      {
+        "id": "1503141",
+        "name": "PRÁTICA JURIDICA II",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "75h(5cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503133"
+        ]
+      },
+      {
+        "id": "1501244",
+        "name": "DIREITO DA INTEGRAÇÃO ECONÔMICA",
+        "category": "Complementar Optativa",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501237"
+        ]
+      },
+      {
+        "id": "1501250",
+        "name": "DIREITO DA ORGANIZAÇÃO E DO MERCADOS",
+        "category": "Complementar Optativa",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501236",
+          "1502225",
+          "1502230"
+        ]
+      },
+      {
+        "id": "1501251",
+        "name": "DIREITO INTERNACIONAL DO DESENVOLVIMENTO",
+        "category": "Complementar Optativa",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501236",
+          "1501213",
+          "1501216",
+          "1502225",
+          "1502230"
+        ]
+      },
+      {
+        "id": "1503146",
+        "name": "TÉCNICA LEGISLATIVA",
+        "category": "Complementar Optativa",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501221"
+        ]
+      },
+      {
+        "id": "1501238",
+        "name": "DIREITO AMBIENTAL",
+        "category": "Complementar Obrigatória",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501228"
+        ]
+      },
+      {
+        "id": "1501239",
+        "name": "DIREITO DA INTEGRAÇÃO",
+        "category": "Complementar Obrigatória",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501237"
+        ]
+      },
+      {
+        "id": "1501240",
+        "name": "DIREITO ELEITORAL",
+        "category": "Complementar Obrigatória",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1502241",
+        "name": "DIREITO CIVIL VII",
+        "category": "Básica Profissional",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502240"
+        ]
+      },
+      {
+        "id": "1502242",
+        "name": "DIREITO DO CONSUMIDOR",
+        "category": "Complementar Obrigatória",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502234"
+        ]
+      },
+      {
+        "id": "1503142",
+        "name": "DIREITO PROCESSUAL DO TRABALHO II",
+        "category": "Básica Profissional",
+        "semester": 9,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503140"
+        ]
+      },
+      {
+        "id": "1503143",
+        "name": "PRÁTICA JURÍDICA III",
+        "category": "Básica Profissional",
+        "semester": 9,
+        "workload": "75h(5cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503133"
+        ]
+      },
+      {
+        "id": "1501252",
+        "name": "TÓPICOS ESPECIAIS EM DIREITO ECONÔMICO",
+        "category": "Complementar Optativa",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501236"
+        ]
+      },
+      {
+        "id": "1501241",
+        "name": "DIREITO MUNICIPAL",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1501220"
+        ]
+      },
+      {
+        "id": "1501242",
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502233"
+        ]
+      },
+      {
+        "id": "1502243",
+        "name": "DIREITO DA CRIANÇA E DO ADOLESCENTE",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502241"
+        ]
+      },
+      {
+        "id": "1502244",
+        "name": "MEDIAÇÃO  E  ARBITRAGEM",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502236",
+          "1502232",
+          "1501233"
+        ]
+      },
+      {
+        "id": "1502245",
+        "name": "DIREITO AGRÁRIO",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1502234"
+        ]
+      },
+      {
+        "id": "1503144",
+        "name": "DIREITO PROCESSUAL COLETIVO",
+        "category": "Complementar Obrigatória",
+        "semester": 10,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503128"
+        ]
+      },
+      {
+        "id": "1503145",
+        "name": "PRÁTICA  JURÍDICA IV",
+        "category": "Básica Profissional",
+        "semester": 10,
+        "workload": "75h(5cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1503133"
+        ]
+      }
+    ]
+  }
+}

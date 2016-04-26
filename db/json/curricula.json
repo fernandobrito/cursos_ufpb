@@ -1,0 +1,40 @@
+{
+  "curricula": [
+    {
+      "id": "162006",
+      "name": "CIÊNCIAS DA COMPUTAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+      "faculty": "CENTRO DE INFORMÁTICA (CI) (11.00.64)",
+      "semesters": 8
+    },
+    {
+      "id": "0752010",
+      "name": "ENGENHARIA DE COMPUTAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+      "faculty": "CENTRO DE INFORMÁTICA (CI) (11.00.64)",
+      "semesters": 10
+    },
+    {
+      "id": "702011",
+      "name": "MATEMÁTICA COMPUTACIONAL (BACH) - João Pessoa - Presencial - MT - BACHARELADO",
+      "faculty": "CENTRO DE INFORMÁTICA (CI) (11.00.64)",
+      "semesters": 8
+    },
+    {
+      "id": "642011",
+      "name": "ADMINISTRAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+      "faculty": "CENTRO DE CIÊNCIAS SOCIAIS E APLICADAS (CCSA) (11.00.52)",
+      "semesters": 8
+    },
+    {
+      "id": "0282007",
+      "name": "MEDICINA - João Pessoa - Presencial - MT - OUTRO TIPO DE GRAU ACADÊMICO",
+      "faculty": "CENTRO DE CIÊNCIAS MÉDICAS (CCM) (11.00.60)",
+      "semesters": 12
+    },
+    {
+      "id": "0492008",
+      "name": "DIREITO - João Pessoa - Presencial - N - BACHARELADO",
+      "faculty": "CENTRO DE CIÊNCIAS JURÍDICAS (CCJ) (11.00.57)",
+      "semesters": 10
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "curriculum": {
+    "id": "642011",
+    "name": "ADMINISTRAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+    "faculty": "CENTRO DE CIÊNCIAS SOCIAIS E APLICADAS (CCSA) (11.00.52)",
+    "semesters": 8,
+    "courses": [
+      {
+        "id": "1202290",
+        "name": "GESTÃO ESTRATÉGICA DE CUSTOS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1202291",
+        "name": "ORÇAMENTO NA ADMINISTRAÇÃO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1202292",
+        "name": "CONTABILIDADE PÚBLICA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204100",
+        "name": "ADM DA PEQ MEDIA EMPRESA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204138",
+        "name": "GEST TEC SET PUB PRIVADO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204212",
+        "name": "GESTAO DE CONHECIMENTO NAS ORGANIZACOES",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204213",
+        "name": "COMPORTAMENTO DO CONSUMIDOR",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204214",
+        "name": "MARKETING DE TURISMO",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204215",
+        "name": "ADMINISTRACAO DE SERVICOS HOSPITALARES",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204216",
+        "name": "PUBLICIDADE E PROPAGANDA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204218",
+        "name": "ELABORACAO E GESTAO PROJ PUBLICOS E PRIV",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204219",
+        "name": "PROCESSO DECISORIO E DESENVOLV GERENCIAL",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204220",
+        "name": "ADMINISTRACAO PUBLICA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204241",
+        "name": "TÓPICOS ESPECIAIS EM ADMINISTRAÇÃO I",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204242",
+        "name": "TÓPICOS ESPECIAIS EM ADMINISTRAÇÃO II",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204243",
+        "name": "TÓPICOS ESPECIAIS EM ADMINISTRAÇÃO III",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1403747",
+        "name": "LIBRAS  LÍNGUA BRASILEIRA DE SINAIS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501179",
+        "name": "LEGISLACAO TRIBUTARIA",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1103227",
+        "name": "FUNDAMENTO DE MATEMATICA",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1201180",
+        "name": "ECONOMIA DE EMPRESAS",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204136",
+        "name": "FUNDAMENTO DA ADMINISTRACAO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1402240",
+        "name": "INTRODUCAO A FILOSOFIA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1403153",
+        "name": "PORTUGUES INSTRUMENTAL",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1108176",
+        "name": "ESTATISTICA APLICADA A ADMINISTRACAO",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103227"
+        ]
+      },
+      {
+        "id": "1202281",
+        "name": "CONTABILIDADE PARA ADMINISTRADORES",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204185",
+        "name": "TEORIA DAS ORGANIZACOES",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204136"
+        ]
+      },
+      {
+        "id": "1204186",
+        "name": "INFORMATICA ADMINISTRATIVA",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1205003",
+        "name": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1202161",
+        "name": "MATEMATICA FINANCEIRA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103227"
+        ]
+      },
+      {
+        "id": "1204189",
+        "name": "RELACAO DE TRABALHO E POLITICA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204221",
+        "name": "ESTRUTURA E PROCESSOS ORGANIZACIONAL",
+        "category": "Complementar Obrigatória",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204185"
+        ]
+      },
+      {
+        "id": "1405211",
+        "name": "PSICOLOGIA DAS ORGANIZACOES",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1501215",
+        "name": "DIREITO NA ADMINISTRACAO",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204196",
+        "name": "ETICA NA ADMINISTRACAO",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204217",
+        "name": "GESTAO DA QUALIDADE E PRODUTIVIDADE",
+        "category": "Complementar Obrigatória",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204221"
+        ]
+      },
+      {
+        "id": "1204222",
+        "name": "COMPORTAMENTO E DESENV HUMANO NAS ORGANI",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 5h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204238",
+        "name": "ORGANIZAÇÃO E MÉTODOS",
+        "category": "Complementar Obrigatória",
+        "semester": 4,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204221"
+        ]
+      },
+      {
+        "id": "1204244",
+        "name": "PESQUISA APLICADA À ADMINISTRAÇÃO",
+        "category": "Complementar Obrigatória",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1401284",
+        "name": "SOCIOLOGIA DAS ORGANIZACOES",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204104",
+        "name": "ADM DE MARKETING I",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204185"
+        ]
+      },
+      {
+        "id": "1204201",
+        "name": "ADMINISTRACAO DE RECURSOS MATERIAIS I",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204205",
+        "name": "ADMINISTRACAO DE RECURSOS HUMANOS I",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204222"
+        ]
+      },
+      {
+        "id": "1204207",
+        "name": "ADMINISTRACAO FINANCEIRA I",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1202161"
+        ]
+      },
+      {
+        "id": "1204234",
+        "name": "ADMINISTRAÇÃO DA PRODUÇÃO E OPERAÇÕES I",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204185"
+        ]
+      },
+      {
+        "id": "1204237",
+        "name": "RESPONSABILIDADE SOCIAL EMPRESARIAL",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204196"
+        ]
+      },
+      {
+        "id": "1204105",
+        "name": "ADM DE MARKETING II",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204104"
+        ]
+      },
+      {
+        "id": "1204202",
+        "name": "ADMINISTRACAO DE RECURSOS MATERIAIS II",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204201"
+        ]
+      },
+      {
+        "id": "1204206",
+        "name": "ADMINISTRACAO DE RECURSOS HUMANOS II",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204208",
+        "name": "ADMINISTRACAO FINANCEIRA II",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204207"
+        ]
+      },
+      {
+        "id": "1204232",
+        "name": "ESTÁGIO CURRICULAR SUPERVISIONADO I",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "120h(8cr) aula 0h(0cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204235",
+        "name": "ADMINISTRAÇÃO DA PRODUÇÃO E OPERAÇÕES II",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204234"
+        ]
+      },
+      {
+        "id": "1108179",
+        "name": "METODOS QUANT  E QUALITATIVOS EM ADM",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204223",
+          "1204244"
+        ]
+      },
+      {
+        "id": "1204156",
+        "name": "SISTEMA DE INFORMACAO E DECISAO",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204199",
+        "name": "PLANEJMENTO E GESTAO ESTRAT ORGANIZACION",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204206"
+        ]
+      },
+      {
+        "id": "1204236",
+        "name": "PESQUISA OPERACIONAL",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204202"
+        ]
+      },
+      {
+        "id": "1204239",
+        "name": "TRAB DE CONCLUSÃO DE CURSO I  TCC I",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1204200",
+        "name": "ADMINISTRACAO EMPREENDEDORA",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204199"
+        ]
+      },
+      {
+        "id": "1204203",
+        "name": "ADMINISTRACAO DE SISTEMAS DE INFORMACAO",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1204156"
+        ]
+      },
+      {
+        "id": "1204233",
+        "name": "ESTÁGIO CURRICULAR SUPERVISIONADO II",
+        "category": "Básica Profissional",
+        "semester": 8,
+        "workload": "180h(12cr) aula 0h(0cr) lab.",
+        "type": "ESTÁGIO",
+        "prerequisites": [
+          "1204232"
+        ]
+      },
+      {
+        "id": "1204240",
+        "name": "TRAB DE CONCLUSÃO DE CURSO II  TCC II",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      }
+    ]
+  }
+}

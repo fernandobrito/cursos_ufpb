@@ -1,0 +1,684 @@
+{
+  "curriculum": {
+    "id": "702011",
+    "name": "MATEMÁTICA COMPUTACIONAL (BACH) - João Pessoa - Presencial - MT - BACHARELADO",
+    "faculty": "CENTRO DE INFORMÁTICA (CI) (11.00.64)",
+    "semesters": 8,
+    "courses": [
+      {
+        "id": "1107120",
+        "name": "COMPUTADORES E SOCIEDADE",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1107251",
+        "name": "INTROD À MATEMÁTICA COMPUTACINAL",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "30h(2cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1108150",
+        "name": "INTRODUCAO A TEORIA DE GRAFOS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "3106043",
+        "name": "ESTÁGIO SUPERVISIONADO",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "240h(16cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102003",
+        "name": "TÓPICOS ESPECIAIS EM MÁT COMPUT I",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "15h(1cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102011",
+        "name": "ALGORÍTIMOS   DISTRIBUÍDOS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "90h(6cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102051",
+        "name": "MÉTODOS DOS ELEMENTOS FINITOS I",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102056",
+        "name": "ELEMENTOS DOS CÁLCULOS DAS VARIAÇÕES",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102057",
+        "name": "INTRODUÇÃO A TEORIA DOS GRÁFICOS",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102059",
+        "name": "MÉTODOS MATEMÁTICOS AVANÇADOS I",
+        "category": "Complementar Optativa",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103180"
+        ]
+      },
+      {
+        "id": "GDCOC0063",
+        "name": "TÓPICOS ESPECIAIS EM MATEMÁTICA COMPUTACIONAL II",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "15h(1cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0064",
+        "name": "TÓPICOS ESPECIAIS EM MATEMÁTICA COMPUTACIONAL III",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0065",
+        "name": "TÓPICOS ESPECIAIS EM MATEMÁTICA COMPUTACIONAL IV",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0066",
+        "name": "TÓPICOS ESPECIAIS EM MATEMÁTICA COMPUTACIONAL V",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0067",
+        "name": "TÓPICOS ESPECIAIS EM MATEMÁTICA COMPUTACIONAL VI",
+        "category": "Complementar Flexiva",
+        "semester": 0,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1103118",
+        "name": "CALCULO VET GEO ANALITICA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1103177",
+        "name": "CALCULO DIFERENCIAL E INTEGRAL I",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1107136",
+        "name": "INTRODUCAO A PROGRAMACAO",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1107201",
+        "name": "METODOLOGIA DO TRABALHO CIENTIFICO",
+        "category": "Complementar Obrigatória",
+        "semester": 1,
+        "workload": "45h(3cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1107250",
+        "name": "INTRODUÇÃO À COMPUTAÇÃO CIENTÍFICA",
+        "category": "Básica Profissional",
+        "semester": 1,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1101171",
+        "name": "FISICA APLICADA A COMPUTACAO I",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103177",
+          "1103118"
+        ]
+      },
+      {
+        "id": "1103178",
+        "name": "CALCULO DIFERENCIAL E INTEGRAL II",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103177"
+        ]
+      },
+      {
+        "id": "1103179",
+        "name": "INTRODUCAO A ALGEBRA LINEAR",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103118"
+        ]
+      },
+      {
+        "id": "1107147",
+        "name": "LINGUAGEM PROGRAMACAO I",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107136"
+        ]
+      },
+      {
+        "id": "5102001",
+        "name": "MATEMÁTICA DISCRETA",
+        "category": "Básica Profissional",
+        "semester": 2,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "5102002",
+        "name": "PESQUISA APLICADA À MAT COMPUTACIONAL",
+        "category": "Complementar Obrigatória",
+        "semester": 2,
+        "workload": "45h(3cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "1103180",
+        "name": "SERIES E EQUACOES DIF ORDINARIAS",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103178",
+          "1103179"
+        ]
+      },
+      {
+        "id": "1103232",
+        "name": "CALCULO DIF  E INTEGRAL III",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103178",
+          "1103118"
+        ]
+      },
+      {
+        "id": "1107186",
+        "name": "ESTRUTURA DE DADOS",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107147"
+        ]
+      },
+      {
+        "id": "5102004",
+        "name": "INTRODUÇÃO Á COMPUTAÇÃO GRÁFICA",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103178",
+          "1107174",
+          "1103179"
+        ]
+      },
+      {
+        "id": "5102006",
+        "name": "CÁLCULO  DAS PROBABILIDADES I",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103177"
+        ]
+      },
+      {
+        "id": "5102007",
+        "name": "PESQUISA OPERACIONAL",
+        "category": "Básica Profissional",
+        "semester": 3,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103179"
+        ]
+      },
+      {
+        "id": "1107263",
+        "name": "AGENTES INTELIGENTES",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107186"
+        ]
+      },
+      {
+        "id": "1108162",
+        "name": "PROGRAMACAO MATEMATICA",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102007",
+          "1103178"
+        ]
+      },
+      {
+        "id": "5101007",
+        "name": "INTELIGÊNCIA  COMPUTACIONAL",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102007"
+        ]
+      },
+      {
+        "id": "5102008",
+        "name": "CÁLCULO DAS PROBABILIDADES II",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0071",
+        "name": "PROGRAMAÇÃO MATEMÁTICA",
+        "category": "Complementar Optativa",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102007",
+          "1103178"
+        ]
+      },
+      {
+        "id": "1101172",
+        "name": "FISICA APLICADA A COMPUTACAO II",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1101171",
+          "1101167"
+        ]
+      },
+      {
+        "id": "1103258",
+        "name": "CÁLCULO NUMÉRICO",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103180",
+          "1107174"
+        ]
+      },
+      {
+        "id": "1107148",
+        "name": "LINGUAGEM PROGRAMACAO II",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107147"
+        ]
+      },
+      {
+        "id": "1107204",
+        "name": "ORDENACAO E RECUPERACAO DE DADOS",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107186"
+        ]
+      },
+      {
+        "id": "5102017",
+        "name": "DIDATICA  UV",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "0h(0cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+
+        ]
+      },
+      {
+        "id": "GDCOC0068",
+        "name": "INTRODUÇÃO À ANÁLISE REAL",
+        "category": "Básica Profissional",
+        "semester": 4,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102001",
+          "1103180"
+        ]
+      },
+      {
+        "id": "5102048",
+        "name": "MODELAGEM DE SISTEMAS CONTÍNUOS",
+        "category": "Complementar Optativa",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1101172",
+          "1103232"
+        ]
+      },
+      {
+        "id": "5102009",
+        "name": "ALGEBRA LINEAR COMPUTACIONAL",
+        "category": "Básica Profissional",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103179"
+        ]
+      },
+      {
+        "id": "5102044",
+        "name": "EQUAÇÕES DIFERENORDINÁRIAS APLICADA",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103226"
+        ]
+      },
+      {
+        "id": "5102045",
+        "name": "SIMULAÇÃO COMPUTACIONAL",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102006"
+        ]
+      },
+      {
+        "id": "5102046",
+        "name": "PROGRAMAÇÃO NÃO LINEAR",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103178",
+          "5102007"
+        ]
+      },
+      {
+        "id": "5102047",
+        "name": "BANCO DE DADOS",
+        "category": "Complementar Obrigatória",
+        "semester": 5,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107204"
+        ]
+      },
+      {
+        "id": "GDCOC0069",
+        "name": "OTIMIZAÇÃO COMBINATORIA",
+        "category": "Complementar Optativa",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102009"
+        ]
+      },
+      {
+        "id": "5102049",
+        "name": "EQUQÇÕES DIFPARCIAIS E APLICADAS",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103226"
+        ]
+      },
+      {
+        "id": "5102050",
+        "name": "PROGRAMAÇÃO LINEAR INTEIRA",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102007"
+        ]
+      },
+      {
+        "id": "5102052",
+        "name": "ANÁLISE NUMÉRICA",
+        "category": "Complementar Obrigatória",
+        "semester": 6,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103176",
+          "1103258"
+        ]
+      },
+      {
+        "id": "5102053",
+        "name": "ESTÁGIO SUPERVISIONADO I",
+        "category": "Básica Profissional",
+        "semester": 6,
+        "workload": "150h(10cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1107201"
+        ]
+      },
+      {
+        "id": "GDCOC0070",
+        "name": "OTIMIZAÇÃO DE GRANDE PORTE",
+        "category": "Complementar Optativa",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102050"
+        ]
+      },
+      {
+        "id": "5102054",
+        "name": "ESTÁGIO SUPERVISIONADO II",
+        "category": "Básica Profissional",
+        "semester": 7,
+        "workload": "150h(10cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102053"
+        ]
+      },
+      {
+        "id": "5102055",
+        "name": "SOLUÇÕES NUMEM EQUAÇÕES DIFERENCIAIS I",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "1103258",
+          "1103176"
+        ]
+      },
+      {
+        "id": "5102058",
+        "name": "TEORIA DO CONTROLE ÓTIMO",
+        "category": "Complementar Obrigatória",
+        "semester": 7,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102044"
+        ]
+      },
+      {
+        "id": "GDCOC0061",
+        "name": "SOLUÇÕES NUMÉRICAS EM EQUAÇÕES DIFERENCIAIS II",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102055"
+        ]
+      },
+      {
+        "id": "GDCOC0062",
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO (MATEMÁTICA COMPUTACIONAL)",
+        "category": "Complementar Obrigatória",
+        "semester": 8,
+        "workload": "60h(4cr) aula 0h(0cr) lab.",
+        "type": "DISCIPLINA",
+        "prerequisites": [
+          "5102054"
+        ]
+      }
+    ]
+  }
+}
