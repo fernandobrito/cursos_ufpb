@@ -37,9 +37,9 @@ module UfpbSigaaApi
 
     config.middleware.insert_before 0, "Rack::Cors", :logger => (-> { Rails.logger }) do
       allow do
-        origins /\Ahttps?:\/\/gustavosobral\.github\.io\/ufpb_programs_site\/\z/
+        origins 'http://gustavosobral.github.io/'
 
-        resource '/api',
+        resource '/api/*',
                  :headers => :any,
                  :methods => [:get, :post, :put, :patch],
                  :max_age => 0
