@@ -12,6 +12,6 @@ use Rack::Cors do
 
     resource '/api/*',
 	 :headers => :any,
-	 :methods => [:get, :post, :put, :patch],
+	 :methods => [:get, :post, :put, :patch]
    end
 end
