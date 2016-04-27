@@ -7,11 +7,11 @@ require 'rack/cors'
 
 use Rack::Cors do
   allow do
-    origins 'http://gustavosobral.github.io/', 'http://localhost:8080'
+    # origins 'http://gustavosobral.github.io/', 'http://localhost:8080'
+    origins '*'
 
     resource '/api/*',
 	 :headers => :any,
 	 :methods => [:get, :post, :put, :patch],
-	 :max_age => 0
    end
 end
