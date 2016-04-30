@@ -1,20 +1,22 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
-gem 'rails', '4.2.5.2'
+gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '~> 3.5'
 gem 'haml-rails'
 gem 'high_voltage'
 gem 'sendgrid'
 gem 'simple_form'
 gem 'therubyracer', :platform => :ruby
 gem 'rack-cors'
+
+gem 'sigaa_parser', '0.0.2', git: 'https://github.com/fernandobrito/sigaa_parser.git'
 
 group :development do
   gem 'web-console', '~> 2.0'
