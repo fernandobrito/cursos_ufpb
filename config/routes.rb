@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  HighVoltage.configure do |config|
+    config.home_page = 'home'
+  end
 
   scope '/admin' do
     devise_for :users
