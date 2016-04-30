@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Admin::UsersController < ApplicationController
   before_action :authenticate_user!
 
   def index
@@ -7,6 +7,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+
     unless @user == current_user
       redirect_to :back, :alert => "Access denied."
     end
@@ -16,7 +17,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @user.destroy
 
-    redirect_to users_path
+    redirect_to admin_users_path
   end
-
 end

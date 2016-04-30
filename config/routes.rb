@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
   root to: 'visitors#index'
 
-  devise_for :users
-  resources :users
+  scope '/admin' do
+    devise_for :users
+  end
+
+  namespace :admin do
+    root to: 'users#index'
+
+    resources :users
+  end
 
   namespace :api do
     root to: 'curricula#index'

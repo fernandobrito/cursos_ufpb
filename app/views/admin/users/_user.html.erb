@@ -1,0 +1,4 @@
+<td><%= link_to user.name, [:admin, user] %></td>
+<td><%= link_to user.email, [:admin, user] %></td>
+<td><%= link_to 'Destroy', admin_user_path(user), method: :delete,
+                data: { confirm: 'Você tem certeza que deseja excluir esse usuário?'} %></td>
