@@ -13,3 +13,5 @@
     %main{:role => "main"}
       = render 'layouts/shared/messages'
       = yield
+
+    = render 'layouts/shared/ga' if ENV['RAILS_ENV'] == 'production'

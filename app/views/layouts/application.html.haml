@@ -33,7 +33,6 @@
               = link_to 'Sobre', page_path('about')
         %h3.text-muted Cursos UFPB
 
-
       = render 'layouts/shared/messages'
 
       = yield
@@ -47,3 +46,4 @@
     = javascript_include_tag 'application'
     = yield(:js_includes)
     = yield(:js_code)
+    = render 'layouts/shared/ga' if ENV['RAILS_ENV'] == 'production'
