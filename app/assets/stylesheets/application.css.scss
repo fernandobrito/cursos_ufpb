@@ -15,3 +15,15 @@
  *
  *= require_self
  */
+
+h4 {
+  font-size: 20px;
+}
+
+p, ul {
+  font-size: 17px;
+}
+
+.footer {
+  p { font-size: 14px; }
+}

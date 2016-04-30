@@ -2,17 +2,23 @@
   %h1 Acompanhe a evolução do seu CRA
   %p.lead Envie o seu histórico de notas gerado pelo SIGAA UFPB e veja a evolução do ceu CRA (Coeficiente de Rendimento Acadêmico) ao longo dos semestres em um gráfico*.
 
+  / %p.lead.text-muted Para obter o seu histórico, entre no #{link_to 'SIGAA UFPB', 'http://sigaa.ufpb.br', target: '_blank'}, autentique-se e procure '' no menu.
+
   = form_tag transcripts_path, multipart: true, id: 'form' do
     = file_field_tag 'file', id: 'file-input', class: 'btn btn-large', accept: '.pdf, .PDF'
 
+
 .row.marketing
   .col-lg-6
-    %h4 Comparação
+    %h2 Comparação
     %p Veja também como seria o seu CRA se você nunca tivesse reprovado disciplinas.
 
-  .col-lg-6
-    %h4 * Privacidade
+    %h2 * Privacidade
     %p Ao enviar o seu histórico, você concorda com os #{link_to 'termos de utilização', page_path('about')} deste site.
+
+  .col-lg-6
+    = image_tag 'home_arrow.png', class: 'img-thumbnail'
+
 
 
 - content_for :css_includes do
