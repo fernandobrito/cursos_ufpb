@@ -97,6 +97,8 @@ GEM
     domain_name (0.5.20160310)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.1)
+    dropbox-sdk (1.6.5)
+      json
     erubis (2.7.0)
     execjs (2.6.0)
     factory_girl (4.7.0)
@@ -370,6 +372,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   devise (~> 3.5)
+  dropbox-sdk
   factory_girl_rails
   faker
   foreman

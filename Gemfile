@@ -16,6 +16,7 @@ gem 'simple_form'
 gem 'therubyracer', :platform => :ruby
 gem 'rack-cors'
 gem 'gon'
+gem 'dropbox-sdk'
 
 gem 'sigaa_parser', '0.0.3', git: 'https://github.com/fernandobrito/sigaa_parser.git'
 

@@ -27,9 +27,9 @@
       .header.clearfix
         %nav
           %ul.nav.nav-pills.pull-right
-            %li.active{:role => "presentation"}
+            %li{:role => 'presentation'}
               = link_to 'Início', root_path
-            %li{:role => "presentation"}
+            %li{:role => 'presentation'}
               = link_to 'Sobre', page_path('about')
         %h3.text-muted Cursos UFPB
 
@@ -39,7 +39,7 @@
       = yield
 
       %footer.footer
-        %p Esse site foi desenvolvido por alunos e não possui nenhum vínculo oficial com a UFPB. Os desenvolvedores deste site não se responsabilizam pelos dados aqui publicados.
+        %p Esse site foi desenvolvido por alunos e não possui nenhum vínculo oficial com a UFPB. Os desenvolvedores deste site não se responsabilizam pelos dados aqui publicados. Ao utilizar este site, você concorda com os #{link_to 'termos de utilização', page_path('about')}.
 
     //container
     / IE10 viewport hack for Surface/desktop Windows 8 bug
