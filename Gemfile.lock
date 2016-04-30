@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fernandobrito/sigaa_parser.git
-  revision: 3e9167f004dfa3e36691b36f5b6d6c1f80f0f8e1
+  revision: d102b3efa56a2dcf8b1ff7268ee01d9e8888ce67
   specs:
     sigaa_parser (0.0.3)
       activesupport (~> 4.2)
