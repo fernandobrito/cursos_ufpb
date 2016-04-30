@@ -1,4 +1,4 @@
-@import "1st_load_framework"
+@import "1st_load_framework";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -14,3 +14,7 @@
  *
  *= require_self
  */
+
+body {
+  background-color: #eee;
+}

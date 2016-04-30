@@ -3,6 +3,8 @@ Rails.application.routes.draw do
     config.home_page = 'home'
   end
 
+  resources :transcripts, only: [:create]
+
   scope '/admin' do
     devise_for :users
   end

@@ -1,13 +1,46 @@
 !!!
 %html
   %head
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
-    %title= content_for?(:title) ? yield(:title) : 'Ufpb Sigaa Api'
-    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Ufpb Sigaa Api'}"}
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+
+    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Ufpb Sigaa Api'}"}/
+    %meta{:content => "", :name => "author"}/
+
+    %link{:href => "favicon.ico", :rel => "icon"}/
+    %title= content_for?(:title) ? yield(:title) : 'Cursos UFPB'
+
     = stylesheet_link_tag 'application', media: 'all'
-    = javascript_include_tag 'application'
+    = yield(:css_includes)
+    = yield(:css_code)
+
     = csrf_meta_tags
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   %body
-    %header
-    %main{:role => "main"}
+    .container
+      .header.clearfix
+        %nav
+          %ul.nav.nav-pills.pull-right
+            %li.active{:role => "presentation"}
+              = link_to 'Início', root_path
+            %li{:role => "presentation"}
+              = link_to 'Sobre', page_path('about')
+        %h3.text-muted Cursos UFPB
+
       = yield
+
+      %footer.footer
+        %p Esse site foi desenvolvido por alunos e não possui nenhum vínculo oficial com a UFPB. Os desenvolvedores deste site não se responsabilizam pelos dados aqui publicados.
+
+    //container
+    / IE10 viewport hack for Surface/desktop Windows 8 bug
+    %script{:src => "https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"}
+    = javascript_include_tag 'application'
+    = yield(:js_includes)
+    = yield(:js_code)
