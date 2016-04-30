@@ -14,7 +14,7 @@ class TranscriptsController < ApplicationController
 
     semester_average = []
 
-    results.semesters.each_with_index do |semester, index|
+    results.semesters[0..-2].each_with_index do |semester, index|
       semester_average << [ {v: index, f: semester },
                              results.average_up_to(semester),
                              results.average_up_to(semester, approved_only: true)]
