@@ -15,8 +15,9 @@ gem 'sendgrid'
 gem 'simple_form'
 gem 'therubyracer', :platform => :ruby
 gem 'rack-cors'
+gem 'gon'
 
-gem 'sigaa_parser', '0.0.2', git: 'https://github.com/fernandobrito/sigaa_parser.git'
+gem 'sigaa_parser', '0.0.3', git: 'https://github.com/fernandobrito/sigaa_parser.git'
 
 group :development do
   gem 'web-console', '~> 2.0'

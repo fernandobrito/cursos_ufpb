@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/fernandobrito/sigaa_parser.git
-  revision: 6957a0a999d1a4070fe2cf12331cd19b258df99c
+  revision: 3e9167f004dfa3e36691b36f5b6d6c1f80f0f8e1
   specs:
-    sigaa_parser (0.0.2)
+    sigaa_parser (0.0.3)
       activesupport (~> 4.2)
       dotenv (~> 2.1)
       mechanize (~> 2.7)
@@ -112,6 +112,11 @@ GEM
     formatador (0.2.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    gon (6.0.1)
+      actionpack (>= 3.0)
+      json
+      multi_json
+      request_store (>= 1.0)
     guard (2.13.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, <= 4.0)
@@ -259,6 +264,7 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     ref (2.0.0)
+    request_store (1.3.1)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
     rspec (3.4.0)
@@ -367,6 +373,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   foreman
+  gon
   guard-bundler
   guard-rails
   guard-rspec
@@ -393,7 +400,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   sendgrid
-  sigaa_parser (= 0.0.2)!
+  sigaa_parser (= 0.0.3)!
   simple_form
   spring
   spring-commands-rspec
