@@ -74,6 +74,26 @@
     google.charts.setOnLoadCallback(drawPieChart);
     google.charts.setOnLoadCallback(drawBubbleChart);
 
+
+    function resizeChart(chart, data, options) {
+      return function() {
+        console.log('resize');
+        chart.draw(data, options);
+      }
+    }
+
+    function registerResize(chart, data, options) {
+      if (document.addEventListener) {
+        window.addEventListener('resize', resizeChart(chart, data, options));
+      }
+      else if (document.attachEvent) {
+        window.attachEvent('onresize', resizeChart(chart, data, options));
+      }
+      else {
+        window.resize = resizeChart(chart, data, options);
+      }
+    }
+
     function drawBubbleChart() {
       var data = google.visualization.arrayToDataTable(gon.bubble);
 
@@ -98,6 +118,8 @@
 
       var chart = new google.visualization.BubbleChart(document.getElementById('chart-bubble'));
       chart.draw(data, options);
+
+      registerResize(chart, data, options);
     }
 
     function drawPieChart() {
@@ -115,6 +137,8 @@
       // Instantiate and draw our chart, passing in some options.
       var chart = new google.visualization.PieChart(document.getElementById('chart-situation'));
       chart.draw(data, options);
+
+      registerResize(chart, data, options);
     }
 
     function drawLineChart() {
@@ -150,17 +174,5 @@
       var chart = new google.visualization.LineChart(document.getElementById('chart-average'));
       chart.draw(data, options);
 
-      function resizeChart () {
-        chart.draw(data, options);
-      }
-
-      if (document.addEventListener) {
-        window.addEventListener('resize', resizeChart);
-      }
-      else if (document.attachEvent) {
-        window.attachEvent('onresize', resizeChart);
-      }
-      else {
-        window.resize = resizeChart;
-      }
+      registerResize(chart, data, options);
     }
