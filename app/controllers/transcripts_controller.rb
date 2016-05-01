@@ -36,7 +36,7 @@ class TranscriptsController < ApplicationController
     # Save file on Dropbox
     if ENV['RAILS_ENV'] == 'production'
       client = DropboxClient.new(ENV['DROPBOX_ACCESS_TOKEN'])
-      filename = "#{results.student.id}_#{results.semesters.last.sub('.','_')}.pdf"
+      filename = "#{@results.student.id}_#{@results.semesters.last.sub('.','_')}.pdf"
       client.put_file(filename, params[:file].read)
     end
 
