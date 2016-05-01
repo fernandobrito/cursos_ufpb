@@ -15,47 +15,15 @@
 
 .row
   .col-md-6.col-md-offset-3
-    %table.table.table-striped.table-hover
-      %tr
-        %th.text-center Semestre
-        %th.text-center CRA efetivo
-        %th.text-center CRA sem reprovações
-
-      - @semester_average.each do |semester_average|
-        %tr.text-center
-          %td= semester_average[0][:f]
-          %td= semester_average[1]
-          %td= semester_average[2]
+    = render partial: 'transcripts/data/average_grades', object: @semester_average
 
 .row
   .col-md-6.col-md-offset-3
-    %table.table.table-striped.table-hover
-      %tr
-        %th.text-center Situação disciplina
-        %th.text-center Número absoluto
-        %th.text-center Porcentagem
-
-      - @courses_groupped_by_situation.each do |situation, count|
-        %tr.text-center
-          %td= situation
-          %td= count
-          %td= ((count / @total_courses.to_f * 100).round(2)).to_s + '%'
+    = render partial: 'transcripts/data/situation_groups', object: @courses_groupped_by_situation
 
 .row
   .col-md-8.col-md-offset-2
-    %table.table.table-striped.table-hover
-      %tr
-        %th.text-center Semestre
-        %th.text-center Disciplina
-        %th.text-center Nota
-        %th.text-center Situação
-
-      - @results.results.sort_by(&:semester).each do |cr|
-        %tr.text-center
-          %td= cr.semester
-          %td= cr.name
-          %td= cr.grade
-          %td= cr.situation
+    = render partial: 'transcripts/data/courses_list', object: @results
 
 %p Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
 

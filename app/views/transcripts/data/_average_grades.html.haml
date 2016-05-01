@@ -1,0 +1,11 @@
+%table.table.table-striped.table-hover
+  %tr
+    %th.text-center Semestre
+    %th.text-center CRA efetivo
+    %th.text-center CRA sem reprovações
+
+  - average_grades.each do |semester_average|
+    %tr.text-center
+      %td= semester_average[0][:f]
+      %td= semester_average[1]
+      %td= semester_average[2]

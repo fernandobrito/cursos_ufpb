@@ -1,0 +1,13 @@
+%table.table.table-striped.table-hover
+  %tr
+    %th.text-center Semestre
+    %th.text-center Disciplina
+    %th.text-center Nota
+    %th.text-center Situação
+
+  - courses_list.results.sort_by(&:semester).each do |cr|
+    %tr.text-center
+      %td= cr.semester
+      %td= cr.name
+      %td= cr.grade
+      %td= cr.situation
