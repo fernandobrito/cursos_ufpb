@@ -1,5 +1,5 @@
-require 'dropbox_sdk'
 require 'transcript_data_processor'
+require 'file_storage'
 
 class TranscriptsController < ApplicationController
   def create
@@ -33,11 +33,8 @@ class TranscriptsController < ApplicationController
     @courses = course_results.results
 
     # Save file on Dropbox
-    if ENV['RAILS_ENV'] == 'production'
-      client = DropboxClient.new(ENV['DROPBOX_ACCESS_TOKEN'])
-      filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
-      client.put_file(filename, params[:file].tempfile)
-    end
+    filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
+    FileStorage.store(filename, params[:file].tempfile) if ENV['RAILS_ENV'] == 'production'
 
     render :show
   end
