@@ -110,6 +110,9 @@
           title: 'Semestre',
           ticks: $.map(gon.semesters_average, function(val) { return val[0] }),
           baselineColor: '#ccc'
+        },
+        series: {
+            1: { lineDashStyle: [3, 9] },
         }
       };
 
