@@ -5,7 +5,7 @@
     %th.text-center Nota
     %th.text-center Situação
 
-  - courses_list.results.sort_by(&:semester).each do |cr|
+  - courses_list.sort_by(&:semester).each do |cr|
     %tr.text-center
       %td= cr.semester
       %td= cr.name

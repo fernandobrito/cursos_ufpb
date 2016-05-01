@@ -1,4 +1,5 @@
 require 'dropbox_sdk'
+require 'transcript_data_processor'
 
 class TranscriptsController < ApplicationController
   def create
@@ -10,53 +11,31 @@ class TranscriptsController < ApplicationController
       return
     end
 
-    # Process data for line graph
-    @results = parser.course_results
+    # Get data from parser
+    course_results = parser.course_results
 
-    @semester_average = []
+    # Process data for 'charts/line_average' and for 'data/average_grades'
+    # Need to populate gon.smesters_average and @semesters_average
+    @semesters_average = TranscriptDataProcessor.semesters_average(course_results)
+    gon.semesters_average = @semesters_average
 
-    @results.semesters[0..-2].each_with_index do |semester, index|
-      @semester_average << [ {v: index, f: semester },
-                             @results.average_up_to(semester),
-                             @results.average_up_to(semester, approved_only: true)]
-    end
+    # Process data for 'charts/donut_situation' and for 'data/situation_groups'
+    # Need to populate gon.courses_by_situation and @courses_by_situation
+    @courses_by_situation = TranscriptDataProcessor.courses_grouped_by_situation(course_results)
+    gon.courses_by_situation = @courses_by_situation.to_a
 
-    gon.semesters_average = @semester_average
+    # Process data for 'charts/bubble_courses'
+    # Need to populate gon.courses_for_bubble and gon.bubble_stats
+    gon.bubble, gon.bubble_stats = TranscriptDataProcessor.courses_for_bubble(course_results).to_a
 
-    # Process data for pie graph
-    @courses_groupped_by_situation = @results.results.group_by(&:situation)
-
-    @courses_groupped_by_situation.map { |situation, courses| @courses_groupped_by_situation[situation] = courses.count }
-    @courses_groupped_by_situation = @courses_groupped_by_situation.sort_by { |_, count| count }.reverse
-
-    @total_courses = @results.results.size
-
-    gon.courses_groupped_by_situation = @courses_groupped_by_situation.to_a
-
-    # Process data for bubble graph
-    semesters_map = {}
-    @results.results.select { |r| r.grade.to_f != 0 && r.grade != '--' }.map(&:semester).uniq.sort.each_with_index do |semester, index|
-      semesters_map[semester] = index;
-    end
-
-    @bubble = [['ID', 'Semestre', 'Nota', 'Nota', 'Créditos']]
-    @results.results.select { |r| r.grade.to_f != 0 && r.grade != '--' }.each_with_index do |result, index|
-      @bubble << [ result.name,
-                   { v: semesters_map[result.semester], f: result.semester },
-                   result.grade.to_f,
-                   result.grade.to_f,
-                   result.credits.to_i ]
-    end
-
-    gon.bubble = @bubble
-    gon.bubble_max_grade = @bubble[1..-1].map { |el| el[2] }.max
-    gon.bubble_min_grade = @bubble[1..-1].map { |el| el[2] }.min
-    gon.bubble_semesters_max = semesters_map.map { |k, v| v }.max
+    # Process data for 'data/courses_list'
+    # Need to populate @courses
+    @courses = course_results.results
 
     # Save file on Dropbox
     if ENV['RAILS_ENV'] == 'production'
       client = DropboxClient.new(ENV['DROPBOX_ACCESS_TOKEN'])
-      filename = "#{@results.student.id}_#{@results.semesters.last.sub('.','_')}.pdf"
+      filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
       client.put_file(filename, params[:file].tempfile)
     end
 

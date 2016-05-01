@@ -4,8 +4,9 @@
     %th.text-center Número absoluto
     %th.text-center Porcentagem
 
+  - total = situation_groups.map { |s, c| c }.sum
   - situation_groups.each do |situation, count|
     %tr.text-center
       %td= situation
       %td= count
-      %td= ((count / @total_courses.to_f * 100).round(2)).to_s + '%'
+      %td= ((count / total.to_f * 100).round(2)).to_s + '%'

@@ -15,15 +15,15 @@
 
 .row
   .col-md-6.col-md-offset-3
-    = render partial: 'transcripts/data/average_grades', object: @semester_average
+    = render partial: 'transcripts/data/average_grades', object: @semesters_average
 
 .row
   .col-md-6.col-md-offset-3
-    = render partial: 'transcripts/data/situation_groups', object: @courses_groupped_by_situation
+    = render partial: 'transcripts/data/situation_groups', object: @courses_by_situation
 
 .row
   .col-md-8.col-md-offset-2
-    = render partial: 'transcripts/data/courses_list', object: @results
+    = render partial: 'transcripts/data/courses_list', object: @courses
 
 %p Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
 

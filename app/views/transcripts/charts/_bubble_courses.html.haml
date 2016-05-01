@@ -15,14 +15,14 @@
         hAxis: {
           title: 'Semestre',
           ticks: $.map(gon.bubble, function(val) { return val[1] }),
-          viewWindow: { min: -1, max: gon.bubble_semesters_max + 1},
+          viewWindow: { min: -1, max: gon.bubble_stats['max_semester'] + 1 },
           baselineColor: '#ccc'
         },
         vAxis: {
           title: 'Nota',
-          viewWindow: { min: gon.bubble_min_grade * 0.9, max: gon.bubble_max_grade * 1.05 }
+          viewWindow: { min: gon.bubble_stats['min_grade'] * 0.9, max: gon.bubble_stats['max_grade'] * 1.05 }
         },
-        sizeAxis: { minSize: 10,  maxSize: 20} ,
+        sizeAxis: { minSize: 10,  maxSize: 20 } ,
         bubble: {textStyle: {fontSize: 9}},
         chartArea: { width: '87%', height: '70%' },
         colorAxis: {colors: ['red', 'orange', 'green']}
