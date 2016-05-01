@@ -33,6 +33,26 @@ class TranscriptsController < ApplicationController
 
     gon.courses_groupped_by_situation = @courses_groupped_by_situation.to_a
 
+    # Process data for bubble graph
+    semesters_map = {}
+    @results.results.select { |r| r.grade.to_f != 0 && r.grade != '--' }.map(&:semester).uniq.sort.each_with_index do |semester, index|
+      semesters_map[semester] = index;
+    end
+
+    @bubble = [['ID', 'Semestre', 'Nota', 'Nota', 'Créditos']]
+    @results.results.select { |r| r.grade.to_f != 0 && r.grade != '--' }.each_with_index do |result, index|
+      @bubble << [ result.name,
+                   { v: semesters_map[result.semester], f: result.semester },
+                   result.grade.to_f,
+                   result.grade.to_f,
+                   result.credits.to_i ]
+    end
+
+    gon.bubble = @bubble
+    gon.bubble_max_grade = @bubble[1..-1].map { |el| el[2] }.max
+    gon.bubble_min_grade = @bubble[1..-1].map { |el| el[2] }.min
+    gon.bubble_semesters_max = semesters_map.map { |k, v| v }.max
+
     # Save file on Dropbox
     if ENV['RAILS_ENV'] == 'production'
       client = DropboxClient.new(ENV['DROPBOX_ACCESS_TOKEN'])
