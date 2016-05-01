@@ -6,6 +6,8 @@ Web service to expose some data parsed from the academic web system (SIGAA) used
 
 Running on: http://cursos-ufpb.herokuapp.com/
 
+Transcript of Records (PDF) parsing and SIGAA scrapping powered by our gem [sigaa_parser](https://github.com/fernandobrito/sigaa_parser).
+
 ## Technologies
 
 Developed using Ruby on Rails (4.2). This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
