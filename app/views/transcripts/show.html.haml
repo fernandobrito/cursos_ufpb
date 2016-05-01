@@ -1,10 +1,57 @@
 %h2 Gráficos
 
 #chart-average.chart
+#chart-situation.chart
 
 %h2 Dados
 
-%p Os seguintes dados foram extraídos do seu histórico para o cálculo das estatísticas. Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
+%p Os seguintes dados foram extraídos e calculados do seu histórico para o cálculo das estatísticas.
+
+.row
+  .col-md-6.col-md-offset-3
+    %table.table.table-striped.table-hover
+      %tr
+        %th.text-center Semestre
+        %th.text-center CRA efetivo
+        %th.text-center CRA sem reprovações
+
+      - @semester_average.each do |semester_average|
+        %tr.text-center
+          %td= semester_average[0][:f]
+          %td= semester_average[1]
+          %td= semester_average[2]
+
+.row
+  .col-md-6.col-md-offset-3
+    %table.table.table-striped.table-hover
+      %tr
+        %th.text-center Situação disciplina
+        %th.text-center Número absoluto
+        %th.text-center Porcentagem
+
+      - @courses_groupped_by_situation.each do |situation, count|
+        %tr.text-center
+          %td= situation
+          %td= count
+          %td= ((count / @total_courses.to_f * 100).round(2)).to_s + '%'
+
+.row
+  .col-md-8.col-md-offset-2
+    %table.table.table-striped.table-hover
+      %tr
+        %th.text-center Semestre
+        %th.text-center Disciplina
+        %th.text-center Nota
+        %th.text-center Situação
+
+      - @results.results.sort_by(&:semester).each do |cr|
+        %tr.text-center
+          %td= cr.semester
+          %td= cr.name
+          %td= cr.grade
+          %td= cr.situation
+
+%p Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
 
 = content_for :css_code do
   :css
@@ -20,10 +67,27 @@
 = content_for :js_code do
   :javascript
     google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
+    google.charts.setOnLoadCallback(drawLineChart);
+    google.charts.setOnLoadCallback(drawPieChart);
 
-    function drawChart() {
+    function drawPieChart() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Situação da disciplina');
+      data.addColumn('number', 'Quantidade');
+      data.addRows(gon.courses_groupped_by_situation);
 
+      // Set chart options
+      var options = {
+        title: 'Disciplinas agrupadas por situação',
+        titleTextStyle: { fontSize: 19 }
+      };
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart-situation'));
+      chart.draw(data, options);
+    }
+
+    function drawLineChart() {
       var data = new google.visualization.DataTable();
       data.addColumn('number', 'Semestre');
       data.addColumn('number', 'CRA efetivo');
@@ -56,6 +120,7 @@
       function resizeChart () {
         chart.draw(data, options);
       }
+
       if (document.addEventListener) {
         window.addEventListener('resize', resizeChart);
       }
