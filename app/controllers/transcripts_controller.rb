@@ -32,6 +32,15 @@ class TranscriptsController < ApplicationController
     # Need to populate @courses
     @courses = course_results.results
 
+    # Save student data for statistics
+    parsed_student = course_results.student
+    program_name = parsed_student.program
+
+    average_grade = parser.course_results.average_up_to(parser.course_results.semesters.last)
+
+    program = Program.find_or_create_by!(name: program_name)
+    program.students.find_or_create_by!(code: parsed_student.id, average_grade: average_grade)
+
     # Save file on Dropbox
     filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
     FileStorage.store(filename, params[:file].tempfile) if ENV['RAILS_ENV'] == 'production'
