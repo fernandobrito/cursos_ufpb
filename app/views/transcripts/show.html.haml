@@ -1,10 +1,13 @@
+= render 'transcripts/charts/shared'
+
 %h2 Gráficos
 
-#chart-average.chart
+= render 'transcripts/charts/line_average'
 %hr
-#chart-bubble.chart
+= render 'transcripts/charts/bubble_courses'
 %hr
-#chart-situation.chart
+= render 'transcripts/charts/donut_situation'
+%hr
 
 %h2 Dados
 
@@ -56,123 +59,3 @@
 
 %p Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
 
-= content_for :css_code do
-  :css
-    .chart {
-      width: 100%;
-      height: 500px;
-    }
-
-= content_for :js_includes do
-  = javascript_include_tag 'https://www.gstatic.com/charts/loader.js'
-  = include_gon
-
-= content_for :js_code do
-  :javascript
-    google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawLineChart);
-    google.charts.setOnLoadCallback(drawPieChart);
-    google.charts.setOnLoadCallback(drawBubbleChart);
-
-
-    function resizeChart(chart, data, options) {
-      return function() {
-        console.log('resize');
-        chart.draw(data, options);
-      }
-    }
-
-    function registerResize(chart, data, options) {
-      if (document.addEventListener) {
-        window.addEventListener('resize', resizeChart(chart, data, options));
-      }
-      else if (document.attachEvent) {
-        window.attachEvent('onresize', resizeChart(chart, data, options));
-      }
-      else {
-        window.resize = resizeChart(chart, data, options);
-      }
-    }
-
-    function drawBubbleChart() {
-      var data = google.visualization.arrayToDataTable(gon.bubble);
-
-      var options = {
-        title: 'Gráfico de bolha das disciplinas cursadas',
-        titleTextStyle: { fontSize: 19 },
-        hAxis: {
-          title: 'Semestre',
-          ticks: $.map(gon.bubble, function(val) { return val[1] }),
-          viewWindow: { min: -1, max: gon.bubble_semesters_max + 1},
-          baselineColor: '#ccc'
-        },
-        vAxis: {
-          title: 'Nota',
-          viewWindow: { min: gon.bubble_min_grade * 0.9, max: gon.bubble_max_grade * 1.05 }
-        },
-        sizeAxis: { minSize: 10,  maxSize: 20} ,
-        bubble: {textStyle: {fontSize: 9}},
-        chartArea: { width: '87%', height: '70%' },
-        colorAxis: {colors: ['red', 'orange', 'green']}
-      };
-
-      var chart = new google.visualization.BubbleChart(document.getElementById('chart-bubble'));
-      chart.draw(data, options);
-
-      registerResize(chart, data, options);
-    }
-
-    function drawPieChart() {
-      var data = new google.visualization.DataTable();
-      data.addColumn('string', 'Situação da disciplina');
-      data.addColumn('number', 'Quantidade');
-      data.addRows(gon.courses_groupped_by_situation);
-
-      // Set chart options
-      var options = {
-        title: 'Disciplinas agrupadas por situação',
-        titleTextStyle: { fontSize: 19 }
-      };
-
-      // Instantiate and draw our chart, passing in some options.
-      var chart = new google.visualization.PieChart(document.getElementById('chart-situation'));
-      chart.draw(data, options);
-
-      registerResize(chart, data, options);
-    }
-
-    function drawLineChart() {
-      var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Semestre');
-      data.addColumn('number', 'CRA efetivo');
-      data.addColumn('number', 'CRA sem reprovações');
-      data.addRows(gon.semesters_average);
-
-      // Set chart options
-      var options = {
-        title: 'Evolução do CRA ao longo dos semestres',
-        titleTextStyle: { fontSize: 19 },
-        curveType: 'function',
-        legend: { position: 'bottom' },
-        pointSize: 8,
-        chartArea: { width: '87%', height: '70%', backgroundColor: { stroke: 'white' } },
-        vAxis: {
-          title: 'CRA',
-          format: '0.00'
-        },
-        hAxis: {
-          title: 'Semestre',
-          ticks: $.map(gon.semesters_average, function(val) { return val[0] }),
-          baselineColor: '#ccc'
-        },
-        series: {
-            1: { lineDashStyle: [3, 9] },
-        }
-      };
-
-      // Instantiate and draw our chart, passing in some options.
-      var chart = new google.visualization.LineChart(document.getElementById('chart-average'));
-      chart.draw(data, options);
-
-      registerResize(chart, data, options);
-    }

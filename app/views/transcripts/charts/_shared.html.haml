@@ -1,0 +1,32 @@
+= content_for :css_code do
+  :css
+    .chart {
+      width: 100%;
+      height: 500px;
+    }
+
+= content_for :js_includes do
+  = javascript_include_tag 'https://www.gstatic.com/charts/loader.js'
+  = include_gon
+
+= content_for :js_code do
+  :javascript
+    google.charts.load('current', {'packages':['corechart']});
+
+    function resizeChart(chart, data, options) {
+      return function() {
+        chart.draw(data, options);
+      }
+    }
+
+    function registerResize(chart, data, options) {
+      if (document.addEventListener) {
+        window.addEventListener('resize', resizeChart(chart, data, options));
+      }
+      else if (document.attachEvent) {
+        window.attachEvent('onresize', resizeChart(chart, data, options));
+      }
+      else {
+        window.resize = resizeChart(chart, data, options);
+      }
+    }

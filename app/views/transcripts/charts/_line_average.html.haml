@@ -1,0 +1,42 @@
+#chart-line-average.chart
+
+= content_for :js_code do
+  :javascript
+    google.charts.setOnLoadCallback(drawLineAverageChart);
+
+    function drawLineAverageChart() {
+      // Set chart data
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Semestre');
+      data.addColumn('number', 'CRA efetivo');
+      data.addColumn('number', 'CRA sem reprovações');
+      data.addRows(gon.semesters_average);
+
+      // Set chart options
+      var options = {
+        title: 'Evolução do CRA ao longo dos semestres',
+        titleTextStyle: { fontSize: 19 },
+        curveType: 'function',
+        legend: { position: 'bottom' },
+        pointSize: 8,
+        chartArea: { width: '87%', height: '70%', backgroundColor: { stroke: 'white' } },
+        vAxis: {
+          title: 'CRA',
+          format: '0.00'
+        },
+        hAxis: {
+          title: 'Semestre',
+          ticks: $.map(gon.semesters_average, function(val) { return val[0] }),
+          baselineColor: '#ccc'
+        },
+        series: {
+            1: { lineDashStyle: [3, 9] },
+        }
+      };
+
+      // Instantiate chart
+      var chart = new google.visualization.LineChart(document.getElementById('chart-line-average'));
+      chart.draw(data, options);
+
+      registerResize(chart, data, options);
+    }
