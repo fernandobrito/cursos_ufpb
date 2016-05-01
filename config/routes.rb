@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   resources :transcripts, only: [:create]
 
+  get 'stats/students', to: 'stats#students'
+
   scope '/admin' do
     devise_for :users
   end

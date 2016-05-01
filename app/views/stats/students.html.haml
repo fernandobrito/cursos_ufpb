@@ -1,0 +1,25 @@
+%h2 Estudantes
+
+%p O sistema já recebeu o histórico de #{content_tag(:strong, @total_students)} estudantes de #{content_tag(:strong, @total_programs)} diferentes cursos.
+
+%p A medida que mais estudantes enviem os seus históricos, o sistema poderá calcular estatísticas coletivas como comparar o CRA do aluno em questão com outros alunos do seu curso ou com todos os alunos da UFPB. Você pode ajudar divulgando o sistema para seus colegas.
+
+%p.text-muted Todas as comparações são feitas de forma anônima e nenhuma informação pessoal (matrícula ou nome) dos alunos que enviaram os seus históricos será divulgada.
+
+%h3 Estudantes por curso
+
+.row
+  .col-md-10.col-md-offset-1
+    %table.table.table-striped.table-hover
+      %tr
+        %th.text-center #
+        %th.text-center Curso
+        %th.text-center Estudantes
+        %th.text-center Média do CRA
+
+      - @programs_count.each_with_index do |program_count, index|
+        %tr.text-center
+          %td= index + 1
+          %td= program_count[0].name
+          %td= program_count[1]
+          %td= @programs_average[program_count[0]].round(2)
