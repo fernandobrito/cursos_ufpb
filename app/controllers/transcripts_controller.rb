@@ -57,7 +57,7 @@ class TranscriptsController < ApplicationController
     if ENV['RAILS_ENV'] == 'production'
       client = DropboxClient.new(ENV['DROPBOX_ACCESS_TOKEN'])
       filename = "#{@results.student.id}_#{@results.semesters.last.sub('.','_')}.pdf"
-      client.put_file(filename, params[:file].read)
+      client.put_file(filename, params[:file].tempfile)
     end
 
     render :show
