@@ -45,6 +45,7 @@ class TranscriptsController < ApplicationController
     filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
     FileStorage.store(filename, params[:file].tempfile) if ENV['RAILS_ENV'] == 'production'
 
+    flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados suficientes para calcular estatísticas como a comparação do seu CRA com a dos alunos do seu curso. Convide seus colegas para liberar este recurso!"
     render :show
   end
 end
