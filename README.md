@@ -4,7 +4,7 @@
 
 Web service to expose some data parsed from the academic web system (SIGAA) used on Brazilian public university Universidade Federal da Paraíba ([UFPB](http://www.ufpb.br)). 
 
-Running on: http://ufpb-sigaa-api.herokuapp.com/
+Running on: http://cursos-ufpb.herokuapp.com/
 
 ## Technologies
 
