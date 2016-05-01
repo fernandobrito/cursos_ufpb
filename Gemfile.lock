@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fernandobrito/sigaa_parser.git
-  revision: d102b3efa56a2dcf8b1ff7268ee01d9e8888ce67
+  revision: 1419149cf22f7f68a6f0c7653b871c538efdf000
   specs:
     sigaa_parser (0.0.3)
       activesupport (~> 4.2)
@@ -148,7 +148,7 @@ GEM
       haml (>= 4.0.6, < 5.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
-    hashery (2.1.1)
+    hashery (2.1.2)
     high_voltage (3.0.0)
     html2haml (2.0.0)
       erubis (~> 2.7.0)
