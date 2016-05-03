@@ -36,4 +36,11 @@ feature 'User profile page', :devise do
     expect(page).to have_content 'Access denied.'
   end
 
+  scenario 'user is redirected on invalid users' do
+    user = FactoryGirl.create(:user)
+    login_as(user, :scope => :user)
+    visit admin_user_path('123')
+    expect(page).to have_content 'não encontrado'
+  end
+
 end
