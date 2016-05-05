@@ -32,7 +32,10 @@ class TranscriptsController < ApplicationController
     # Need to populate @courses
     @courses = course_results.results
 
-    # Save student data for statistics
+    # Process data for 'charts/_progress_bars'
+    @progress = course_results.progress
+
+    # Persist student data for statistics
     parsed_student = course_results.student
     program_name = parsed_student.program
 
@@ -47,5 +50,7 @@ class TranscriptsController < ApplicationController
 
     flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados suficientes para calcular estatísticas como a comparação do seu CRA com a dos alunos do seu curso. Convide seus colegas para liberar este recurso!"
     render :show
+
+    flash[:warning] = nil
   end
 end

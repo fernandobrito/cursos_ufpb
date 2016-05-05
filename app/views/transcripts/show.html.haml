@@ -1,5 +1,11 @@
 = render 'transcripts/charts/shared'
 
+%h2
+  Progresso
+  %small (em créditos)
+
+= render partial: 'transcripts/charts/progress_bars', locals: { progress: @progress }
+
 %h2 Gráficos
 
 = render 'transcripts/charts/line_average'

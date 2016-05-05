@@ -1,0 +1,45 @@
+.row
+  .col-md-2.text-right
+    %span.label.label-primary
+      %strong Total currículo:
+
+  .col-md-1.align-center
+    %span.label.label-primary #{progress.total.completed} / #{progress.total.total}
+
+  .col-md-9
+    .progress
+      .progress-bar.progress-bar-striped{:role => "progressbar", :style => "width: #{progress.total.percentage_completed}%;"}
+        #{progress.total.percentage_completed.round}%
+
+  .col-md-2.text-right
+    %span.label.label-success Obrigatórias:
+
+  .col-md-1.text-center
+    %span.label.label-success #{progress.compulsory.completed} / #{progress.compulsory.total}
+
+  .col-md-9
+    .progress
+      .progress-bar.progress-bar-striped.progress-bar-success{:role => "progressbar", :style => "width: #{progress.compulsory.percentage_completed}%;"}
+        #{progress.compulsory.percentage_completed.round}%
+
+  .col-md-2.text-right
+    %span.label.label-danger Optativas:
+
+  .col-md-1.text-center
+    %span.label.label-danger #{progress.optional.completed} / #{progress.optional.total}
+
+  .col-md-9
+    .progress
+      .progress-bar.progress-bar-striped.progress-bar-danger{:role => "progressbar", :style => "width: #{progress.optional.percentage_completed}%"}
+        #{progress.optional.percentage_completed.round}%
+
+  .col-md-2.text-right
+    %span.label.label-warning Flexivas:
+
+  .col-md-1.text-center
+    %span.label.label-warning #{progress.flexible.completed} / #{progress.flexible.total}
+
+  .col-md-9
+    .progress
+      .progress-bar.progress-bar-striped.progress-bar-warning{:role => "progressbar", :style => "width: #{progress.flexible.percentage_completed}%;"}
+        #{progress.flexible.percentage_completed.round}%
