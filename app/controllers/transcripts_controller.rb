@@ -28,6 +28,10 @@ class TranscriptsController < ApplicationController
     # Need to populate gon.courses_for_bubble and gon.bubble_stats
     gon.bubble, gon.bubble_stats = TranscriptDataProcessor.courses_for_bubble(course_results).to_a
 
+    # Process data for 'charts/column_semesters'
+    # Need to populate gon.semesters_workload
+    gon.semesters_workload = TranscriptDataProcessor.semesters_workload(course_results)
+
     # Process data for 'data/courses_list'
     # Need to populate @courses
     @courses = course_results.results

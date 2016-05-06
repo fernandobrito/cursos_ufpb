@@ -15,6 +15,22 @@ module TranscriptDataProcessor
     output
   end
 
+  # Return an array without headers
+  # Semester formatted for chart and yours workload (Sum of each course credits)
+  # [ [ { v: 0, f: '2011.1' }, 28 ], ... ]
+  def self.semesters_workload(course_results)
+    output = []
+
+    # Calculate the sum of credits by each semester
+    course_results.semesters.each_with_index do |semester, index|
+      semester_courses = course_results.results.select { |result| result.semester == semester }
+      output << [{v: index, f: semester },
+                 semester_courses.sum(&:credits)]
+    end
+
+    output
+  end
+
   # Return an hash { APROVADO: 20, REPROVADO: 30, ... }
   def self.courses_grouped_by_situation(course_results)
     # Group courses by situation
