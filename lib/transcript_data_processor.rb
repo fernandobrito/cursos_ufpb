@@ -17,14 +17,14 @@ module TranscriptDataProcessor
 
   # Return an array without headers
   # Semester formatted for chart and yours workload (Sum of each course credits)
-  # [ [ { v: 0, f: '2011.1' }, 28 ], ... ]
+  # [ [ { v: 1, f: '2011.1' }, 28 ], ... ]
   def self.semesters_workload(course_results)
     output = []
 
     # Calculate the sum of credits by each semester
     course_results.semesters.each_with_index do |semester, index|
       semester_courses = course_results.results.select { |result| result.semester == semester }
-      output << [{v: index, f: semester },
+      output << [{v: index+1, f: semester },
                  semester_courses.sum(&:credits)]
     end
 
