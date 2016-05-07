@@ -1,3 +1,4 @@
+# Controller for serve curricula information
 class Api::CurriculaController < ApplicationController
   DATA_PATH = File.join(Rails.root, 'db', 'json')
 
@@ -6,14 +7,14 @@ class Api::CurriculaController < ApplicationController
   end
 
   def show
-    begin
-      render json: open_file("curricula/#{params[:id]}.json")
-    rescue
-      render json: { error: "Could not find any curriculum with code #{params[:code]}" }, status: 404
-    end
+    render json: open_file("curricula/#{params[:id]}.json")
+  rescue
+    render json: { error: "Could not find any curriculum with code
+                   #{params[:code]}" }, status: 404
   end
 
-protected
+  protected
+
   def open_file(path)
     File.read(File.join(DATA_PATH, path))
   end

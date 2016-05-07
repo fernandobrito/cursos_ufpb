@@ -1,3 +1,4 @@
+# Define a university program model
 class Program < ActiveRecord::Base
   validates :name, presence: true
 

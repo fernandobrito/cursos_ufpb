@@ -1,10 +1,14 @@
+# Controller for handle submitted student transcripts
 class TranscriptsController < ApplicationController
   def create
     # Process data
     begin
       parser = SigaaParser::TranscriptParser.new(params[:file].tempfile)
-    rescue SigaaParser::TranscriptParser::InvalidFileFormat, SigaaParser::TranscriptParser::InvalidFileExtension
-      redirect_to root_path, alert: 'O arquivo que você enviou não se parece com um histórico escolar emitido pelo SIGAA UFPB.'
+    rescue SigaaParser::TranscriptParser::InvalidFileFormat,
+           SigaaParser::TranscriptParser::InvalidFileExtension
+      redirect_to root_path,
+                  alert: 'O arquivo que você enviou não se parece com
+                          um histórico escolar emitido pelo SIGAA UFPB.'
       return
     end
 
@@ -49,7 +53,10 @@ class TranscriptsController < ApplicationController
     filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
     FileStorage.store(filename, params[:file].tempfile) if ENV['RAILS_ENV'] == 'production'
 
-    flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados suficientes para calcular estatísticas como a comparação do seu CRA com a dos alunos do seu curso. Convide seus colegas para liberar este recurso!"
+    flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados
+                      suficientes para calcular estatísticas como a comparação
+                      do seu CRA com a dos alunos do seu curso.
+                      Convide seus colegas para liberar este recurso!"
     render :show
 
     flash[:warning] = nil

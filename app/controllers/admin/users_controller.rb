@@ -1,3 +1,4 @@
+# Controller for users (admin) operations
 class Admin::UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :find_resource, only: [:show, :destroy]
@@ -7,9 +8,7 @@ class Admin::UsersController < ApplicationController
   end
 
   def show
-    unless @user == current_user
-      redirect_to :back, :alert => "Access denied."
-    end
+    redirect_to :back, alert: 'Access denied.' unless @user == current_user
   end
 
   def destroy
@@ -18,13 +17,12 @@ class Admin::UsersController < ApplicationController
     redirect_to admin_users_path
   end
 
-protected
+  protected
+
   def find_resource
-    begin
-      @user = User.find(params[:id])
-    rescue ActiveRecord::RecordNotFound
-      redirect_to admin_users_path, :alert => 'Usuário não encontrado.'
-      return
-    end
+    @user = User.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    redirect_to admin_users_path, alert: 'Usuário não encontrado.'
+    return
   end
 end
