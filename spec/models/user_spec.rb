@@ -1,5 +1,4 @@
 describe User do
-
   context 'when has invalid attributes' do
     it 'should not accept without name' do
       user = FactoryGirl.build(:user, name: '')
@@ -10,7 +9,7 @@ describe User do
     it 'should not accept numbers in name' do
       user = FactoryGirl.build(:user, name: 'Name 123')
       user.valid?
-      expect(user.errors[:name]).to include("must not include numbers")
+      expect(user.errors[:name]).to include('must not include numbers')
     end
 
     it 'should not accept password without at least 2 numbers' do
@@ -60,5 +59,4 @@ describe User do
     5.times { FactoryGirl.create(:user) }
     expect(User.all.length).to be(5)
   end
-
 end
