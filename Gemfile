@@ -40,6 +40,7 @@ end
 
 group :development, :test do
   gem 'simplecov'
+  gem 'coveralls', require: false
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry-rails'

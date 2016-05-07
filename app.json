@@ -18,12 +18,10 @@
   "env": {
     "SENDGRID_USERNAME": {
       "description": "Your SendGrid address for sending mail.",
-      "value": "user@example.com",
       "required": false
     },
     "SENDGRID_PASSWORD": {
       "description": "Your SendGrid password for sending mail.",
-      "value": "changeme",
       "required": false
     },
     "ADMIN_EMAIL": {
@@ -33,12 +31,10 @@
     },
     "ADMIN_PASSWORD": {
       "description": "The administrator's password for signing in.",
-      "value": "changeme",
       "required": true
     },
     "DOMAIN_NAME": {
       "description": "Required for sending mail. Give an app name or use a custom domain.",
-      "value": "myapp.herokuapp.com",
       "required": false
     },
     "RAILS_ENV": "production"
