@@ -1,6 +1,3 @@
-require 'transcript_data_processor'
-require 'file_storage'
-
 class TranscriptsController < ApplicationController
   def create
     # Process data
