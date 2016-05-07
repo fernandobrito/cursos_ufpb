@@ -47,7 +47,8 @@ class TranscriptsController < ApplicationController
     average_grade = parser.course_results.average_up_to(parser.course_results.semesters.last)
 
     program = Program.find_or_create_by!(name: program_name)
-    program.students.find_or_create_by!(code: parsed_student.id, average_grade: average_grade)
+    program.students.find_or_create_by!(code: parsed_student.id,
+                                        average_grade: average_grade)
 
     # Save file on Dropbox
     filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"

@@ -38,7 +38,9 @@ describe User do
   end
 
   it 'should be saved' do
-    User.create(name: 'Nome', email: 'email@example.com', password: 'password1234')
+    User.create(name: 'Nome',
+                email: 'email@example.com',
+                password: 'password1234')
     expect(User.count).to be(1)
   end
 
