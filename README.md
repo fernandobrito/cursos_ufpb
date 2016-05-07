@@ -1,6 +1,8 @@
 # UFPB SIGAA API
 
-**Pet-project. Use at your own risk. Low test coverage ratio.** [![Build Status](https://travis-ci.org/fernandobrito/ufpb_sigaa_api.svg?branch=master)](https://travis-ci.org/fernandobrito/ufpb_sigaa_api)
+**Pet-project. Use at your own risk. Low test coverage ratio.** 
+
+[![Build Status](https://travis-ci.org/fernandobrito/ufpb_sigaa_api.svg?branch=master)](https://travis-ci.org/fernandobrito/ufpb_sigaa_api) [![Coverage Status](https://coveralls.io/repos/github/fernandobrito/ufpb_sigaa_api/badge.svg?branch=master)](https://coveralls.io/github/fernandobrito/ufpb_sigaa_api?branch=master)
 
 Web service to expose some data parsed from the academic web system (SIGAA) used on Brazilian public university Universidade Federal da Paraíba ([UFPB](http://www.ufpb.br)). 
 
