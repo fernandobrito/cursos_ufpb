@@ -5,7 +5,7 @@ Warden.test_mode!
 #   As a user
 #   I want to see a list of users
 #   So I can see who has registered
-feature 'User index page', :devise do
+feature '[Admin] User index page', :devise do
   after(:each) do
     Warden.test_reset!
   end

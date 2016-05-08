@@ -5,7 +5,7 @@ Warden.test_mode!
 #   As a user
 #   I want to visit my user profile page
 #   So I can see my personal account data
-feature 'User profile page', :devise do
+feature '[Admin] User profile page', :devise do
   after(:each) do
     Warden.test_reset!
   end
