@@ -1,6 +1,11 @@
 # Controller for handle submitted student transcripts
 class TranscriptsController < ApplicationController
-  def create
+  def sample
+    parser ||= SigaaParser::TranscriptParser.new(File.open(Rails.root.join('db/data/sample-transcript.pdf')))
+    create(parser)
+  end
+
+  def create(parser)
     # Process data
     begin
       parser = SigaaParser::TranscriptParser.new(params[:file].tempfile)

@@ -7,6 +7,8 @@
   = form_tag transcripts_path, multipart: true, id: 'form' do
     = file_field_tag 'file', id: 'file-input', class: 'btn btn-large', accept: '.pdf, .PDF'
 
+  .small.text-muted.top-buffer
+    = link_to '(ou use um arquivo exemplo)', sample_transcripts_path
 
 .row.marketing
   .col-lg-6
