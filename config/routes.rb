@@ -3,7 +3,9 @@ Rails.application.routes.draw do
     config.home_page = 'home'
   end
 
-  resources :transcripts, only: [:create]
+  resources :transcripts, only: [:create] do
+    get 'sample', to: 'transcripts#sample', on: :collection
+  end
 
   get 'stats/students', to: 'stats#students'
 
