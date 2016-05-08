@@ -4,10 +4,10 @@ class TranscriptsController < ApplicationController
     file = File.open(Rails.root.join('db/data/sample-transcript.pdf'))
     parser = SigaaParser::TranscriptParser.new(file)
 
-    create(parser)
+    create(parser, true)
   end
 
-  def create(parser = nil)
+  def create(parser = nil, is_sample_file = false)
     # Process data
     begin
       parser ||= SigaaParser::TranscriptParser.new(params[:file].tempfile)
@@ -58,8 +58,10 @@ class TranscriptsController < ApplicationController
                                         average_grade: average_grade)
 
     # Save file on Dropbox
-    filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
-    FileStorage.store(filename, params[:file].tempfile) if ENV['RAILS_ENV'] == 'production'
+    if ENV['RAILS_ENV'] == 'production' && (! is_sample_file)
+      filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
+      FileStorage.store(filename, params[:file].tempfile)
+    end
 
     flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados
                       suficientes para calcular estatísticas como a comparação
