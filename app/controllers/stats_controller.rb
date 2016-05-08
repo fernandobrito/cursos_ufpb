@@ -1,3 +1,4 @@
+# Controller to handle system stats information
 class StatsController < ApplicationController
   def students
     @programs_count = Student.group(:program).order('count_all desc').limit(10).count

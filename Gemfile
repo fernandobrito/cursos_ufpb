@@ -13,7 +13,7 @@ gem 'haml-rails'
 gem 'high_voltage'
 gem 'sendgrid'
 gem 'simple_form'
-gem 'therubyracer', :platform => :ruby
+gem 'therubyracer', platform: :ruby
 gem 'rack-cors'
 gem 'gon'
 gem 'dropbox-sdk'
@@ -24,7 +24,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_20]
+  gem 'binding_of_caller', platforms: [:mri_20]
   gem 'foreman'
   gem 'guard-bundler'
   gem 'guard-rails'
@@ -32,9 +32,9 @@ group :development do
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
-  gem 'rb-fchange', :require=>false
-  gem 'rb-fsevent', :require=>false
-  gem 'rb-inotify', :require=>false
+  gem 'rb-fchange', require: false
+  gem 'rb-fsevent', require: false
+  gem 'rb-inotify', require: false
   gem 'spring-commands-rspec'
 end
 

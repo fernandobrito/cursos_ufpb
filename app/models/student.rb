@@ -1,3 +1,4 @@
+# Define a student model
 class Student < ActiveRecord::Base
   self.primary_key = :code
 
