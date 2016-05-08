@@ -15,13 +15,13 @@ describe User do
     it 'should not accept password without at least 2 numbers' do
       user = FactoryGirl.build(:user, password: 'changeme1')
       user.valid?
-      expect(user.errors[:password]).to include('must include at least one letter and two digits')
+      expect(user.errors[:password].join(' ')).to match('letter and two digits')
     end
 
     it 'should not accept password without at least 1 letter' do
       user = FactoryGirl.build(:user, password: '123456678')
       user.valid?
-      expect(user.errors[:password]).to include('must include at least one letter and two digits')
+      expect(user.errors[:password].join(' ')).to match('letter and two digits')
     end
 
     it 'should not accept password shorter than 8 chars' do
