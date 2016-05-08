@@ -58,7 +58,7 @@ class TranscriptsController < ApplicationController
                                         average_grade: average_grade)
 
     # Save file on Dropbox
-    if ENV['RAILS_ENV'] == 'production' && (! is_sample_file)
+    if ENV['RAILS_ENV'] == 'production' && !is_sample_file
       filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
       FileStorage.store(filename, params[:file].tempfile)
     end
