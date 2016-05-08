@@ -2,7 +2,7 @@
 class TranscriptsController < ApplicationController
   def sample
     file = File.open(Rails.root.join('db/data/sample-transcript.pdf'))
-    parser ||= SigaaParser::TranscriptParser.new(file)
+    parser = SigaaParser::TranscriptParser.new(file)
 
     create(parser)
   end
@@ -10,7 +10,7 @@ class TranscriptsController < ApplicationController
   def create(parser)
     # Process data
     begin
-      parser = SigaaParser::TranscriptParser.new(params[:file].tempfile)
+      parser ||= SigaaParser::TranscriptParser.new(params[:file].tempfile)
     rescue SigaaParser::TranscriptParser::InvalidFileFormat,
            SigaaParser::TranscriptParser::InvalidFileExtension
       redirect_to root_path,
