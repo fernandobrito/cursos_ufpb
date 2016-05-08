@@ -2,13 +2,13 @@
 class Admin::UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :find_resource, only: [:show, :destroy]
+  before_action :authorize, only: [:show, :destroy]
 
   def index
     @users = User.all
   end
 
   def show
-    redirect_to :back, alert: 'Access denied.' unless @user == current_user
   end
 
   def destroy
@@ -24,5 +24,9 @@ class Admin::UsersController < ApplicationController
   rescue ActiveRecord::RecordNotFound
     redirect_to admin_users_path, alert: 'Usuário não encontrado.'
     return
+  end
+
+  def authorize
+    redirect_to :back, alert: 'Access denied.' unless @user == current_user
   end
 end
