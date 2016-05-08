@@ -7,7 +7,7 @@ class TranscriptsController < ApplicationController
     create(parser)
   end
 
-  def create(parser)
+  def create(parser = nil)
     # Process data
     begin
       parser ||= SigaaParser::TranscriptParser.new(params[:file].tempfile)
