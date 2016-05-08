@@ -6,6 +6,12 @@ describe User do
       expect(user.errors[:name]).to include("can't be blank")
     end
 
+    it 'should not accept name greater than 20 chars' do
+      user = FactoryGirl.build(:user_name_long)
+      user.valid?
+      expect(user.errors[:name].join(' ')).to match('is too long')
+    end
+
     it 'should not accept numbers in name' do
       user = FactoryGirl.build(:user_name_with_numbers)
       user.valid?
