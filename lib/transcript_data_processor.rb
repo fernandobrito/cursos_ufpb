@@ -17,16 +17,29 @@ module TranscriptDataProcessor
   end
 
   # Return an array without headers
-  # Semester formatted for chart and yours workload (Sum of each course credits)
-  # [ [ { v: 1, f: '2011.1' }, 28 ], ... ]
+  # Semester formatted for chart and yours semesters workload by situation
+  # (Sum of each course credits)
+  # [ [ { v: 1, f: '2011.1' }, 28, 4, 0 ], ... ]
   def self.semesters_workload(course_results)
     output = []
 
-    # Calculate the sum of credits by each semester
+    # Gets the courses situations for that student
+    courses_situations = course_results.results.group_by(&:situation).keys
+    output << (['Semestre'] + courses_situations)
+
+    # Calculate the sum of credits by each semester grouped by course situation
     course_results.semesters.each_with_index do |semester, index|
+      # Get the current semester courses
       semester_courses = course_results.results.select { |result| result.semester == semester }
-      output << [{ v: (index + 1), f: semester },
-                 semester_courses.sum(&:credits)]
+      local_array = [{ v: (index + 1), f: semester }]
+
+      # Iterate with each situation adding the courses credit by situation
+      courses_situations.each do |situation|
+        courses_situation = semester_courses.select { |result| result.situation == situation}
+        local_array.push(courses_situation.sum(&:credits))
+      end
+
+      output << local_array
     end
 
     output
