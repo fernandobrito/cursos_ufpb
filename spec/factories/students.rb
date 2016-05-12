@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :student do
-    id 'MyString'
-    program nil
-    average_grade '9.99'
+    code '11118303'
+    program
+    average_grade '7.34'
   end
 end
