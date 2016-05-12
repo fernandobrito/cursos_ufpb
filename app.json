@@ -37,6 +37,10 @@
       "description": "Required for sending mail. Give an app name or use a custom domain.",
       "required": false
     },
+    "DROPBOX_ACCESS_TOKEN": {
+      "description": "Required for send the uploaded transcript to Dropbox",
+      "required": true
+    },
     "RAILS_ENV": "production"
   }
 }
