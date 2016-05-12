@@ -27,3 +27,9 @@ p, ul {
 .footer {
   p { font-size: 14px; }
 }
+
+@media (min-width: 768px) {
+  .modal-dialog { width: 768px; }
+}
+
+.modal-dialog h4 { margin: 0 }

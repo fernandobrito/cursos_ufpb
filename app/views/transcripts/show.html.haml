@@ -19,19 +19,11 @@
 
 %h2 Dados
 
-%p Os seguintes dados foram extraídos e calculados do seu histórico para o cálculo das estatísticas.
+%p Para ver os dados que foram extraídos do seu histórico e utilizados para o cálculo destas estatísticas, clique no botão abaixo.
 
-.row
-  .col-md-6.col-md-offset-3
-    = render partial: 'transcripts/data/average_grades', object: @semesters_average
-
-.row
-  .col-md-6.col-md-offset-3
-    = render partial: 'transcripts/data/situation_groups', object: @courses_by_situation
-
-.row
-  .col-md-8.col-md-offset-2
-    = render partial: 'transcripts/data/courses_list', object: @courses
+%p.text-center
+  = link_to 'Dados extraídos', '#modal-data', class: 'btn btn-default', 'data-toggle' => 'modal'
 
 %p Caso você perceba algum erro, por favor entre em contato com cursos-ufpb [@] fernandobrito [ponto] com.
 
+= render 'modal_data'
