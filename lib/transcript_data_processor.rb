@@ -36,7 +36,7 @@ module TranscriptDataProcessor
       # Iterate with each situation adding the courses credit by situation
       courses_situations.each do |situation|
         courses_situation = semester_courses.select { |result| result.situation == situation}
-        local_array.push(courses_situation.sum(&:credits))
+        local_array.push(courses_situation.blank? ? nil : courses_situation.sum(&:credits))
       end
 
       output << local_array
