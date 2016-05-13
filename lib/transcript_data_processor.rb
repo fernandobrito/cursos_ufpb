@@ -33,10 +33,10 @@ module TranscriptDataProcessor
       semester_courses = course_results.results.select { |result| result.semester == semester }
       local_array = [{ v: (index + 1), f: semester }]
 
-      # Iterate with each situation adding the courses credit by situation
+      # On current semester courses, iterate over each situation adding the courses credits
       courses_situations.each do |situation|
-        courses_situation = semester_courses.select { |result| result.situation == situation}
-        local_array.push(courses_situation.blank? ? nil : courses_situation.sum(&:credits))
+        courses_by_situation = semester_courses.select { |result| result.situation == situation}
+        local_array.push(courses_by_situation.blank? ? nil : courses_by_situation.sum(&:credits))
       end
 
       output << local_array
