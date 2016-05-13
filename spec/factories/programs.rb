@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :program do
-    name 'MyString'
+    name 'CIÊNCIAS DA COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa'
   end
 end
