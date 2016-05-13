@@ -1,0 +1,16 @@
+#modal-data.modal.fade{tabindex: '-1', role: 'dialog', 'aria-hidden' => 'true'}
+  .modal-dialog.modal-content
+    .modal-header
+      %button.close{type: 'button', 'data-dismiss' => 'modal', 'aria-label' => 'close'}
+        %span{ 'aria-hidden' => true } &times;
+      %h4 Dados extraídos do histórico
+    .modal-body
+      .row
+        .col-md-10.col-md-offset-1
+          = render partial: 'transcripts/data/average_grades', object: @semesters_average
+      .row
+        .col-md-10.col-md-offset-1
+          = render partial: 'transcripts/data/situation_groups', object: @courses_by_situation
+      .row
+        .col-md-10.col-md-offset-1
+          = render partial: 'transcripts/data/courses_list', object: @courses

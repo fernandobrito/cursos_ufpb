@@ -6,16 +6,14 @@
 
     function drawColumnSemestersChart() {
       // Set chart data
-      var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Semestre');
-      data.addColumn('number', 'Quantidade de créditos');
-      data.addRows(gon.semesters_workload);
+      var data = new google.visualization.arrayToDataTable(gon.semesters_workload);
 
       // Set chart options
       var options = {
-        title: 'Gráfico de barras com a quantidade de créditos por semestre',
+        title: 'Quantidade de créditos por semestre',
         titleTextStyle: { fontSize: 19 },
         legend: { position: 'bottom' },
+        isStacked: true,
         hAxis: {
           title: 'Semestre',
           ticks: $.map(gon.semesters_workload, function(val) { return val[0] }),
