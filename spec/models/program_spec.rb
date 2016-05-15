@@ -14,6 +14,7 @@ describe Program do
   end
 
   it 'must destroy dependent students when destroyed' do
+    FactoryGirl.reload
     program = FactoryGirl.create(:program)
     5.times { FactoryGirl.create(:student, :code_sequence, program: program) }
     expect(Student.all.length).to be(5)
