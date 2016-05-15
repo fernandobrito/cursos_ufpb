@@ -1,13 +1,16 @@
 describe StatsController do
   context 'When has valid data' do
-
-    before {
+    before do
       FactoryGirl.reload
-      @program_cc = FactoryGirl.create(:program, name: 'CIÊNCIAS DA COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
+      @program_cc = FactoryGirl.create(
+        :program, name: 'CIÊNCIAS DA COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
       5.times { FactoryGirl.create(:student, :code_sequence, program: @program_cc) }
-      @program_ec = FactoryGirl.create(:program, name: 'ENGENHARIA DE COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
-      3.times { FactoryGirl.create(:student, :code_sequence, program: @program_ec, average_grade: 5.5) }
-    }
+      @program_ec = FactoryGirl.create(
+        :program, name: 'ENGENHARIA DE COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
+      3.times do
+        FactoryGirl.create(:student, :code_sequence, program: @program_ec, average_grade: 5.5)
+      end
+    end
 
     it 'is programs count equals to 5 and 3' do
       get :students
@@ -33,7 +36,6 @@ describe StatsController do
   end
 
   context 'when has not valid data' do
-
     before { get :students }
 
     it 'is programs count zero' do
