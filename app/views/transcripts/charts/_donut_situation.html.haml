@@ -16,6 +16,9 @@
         title: 'Disciplinas agrupadas por situação',
         titleTextStyle: { fontSize: 19 },
         pieHole: 0.4,
+        colors: ChartUtils.getSituationsColors(gon.courses_by_situation.map(function (situation) {
+          return situation[0];
+        }))
       };
 
       // Instantiate chart
