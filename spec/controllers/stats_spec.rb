@@ -14,24 +14,24 @@ describe StatsController do
       end
     end
 
-    it 'is programs count equals to 5 and 3' do
+    it 'programs count is equals to 5 and 3' do
       get :students
       expect(assigns(:programs_count)).to include(@program_cc => 5)
       expect(assigns(:programs_count)).to include(@program_ec => 3)
     end
 
-    it 'is programs average equals to 5 and 3' do
+    it 'programs average is equals to 5 and 3' do
       get :students
       expect(assigns(:programs_average)).to include(@program_cc => 7.34)
       expect(assigns(:programs_average)).to include(@program_ec => 5.5)
     end
 
-    it 'is total students equals 8' do
+    it 'total students is equals 8' do
       get :students
       expect(assigns(:total_students)).to be(8)
     end
 
-    it 'is total programs equals 2' do
+    it 'total programs is equals 2' do
       get :students
       expect(assigns(:total_programs)).to be(2)
     end
@@ -40,19 +40,19 @@ describe StatsController do
   context 'when has not valid data' do
     before { get :students }
 
-    it 'is programs count zero' do
+    it 'programs count is zero' do
       expect(assigns(:programs_count)).to be_empty
     end
 
-    it 'is programs average zero' do
+    it 'programs average is zero' do
       expect(assigns(:programs_average)).to be_empty
     end
 
-    it 'is total students zero' do
+    it 'total students is zero' do
       expect(assigns(:total_students)).to be(0)
     end
 
-    it 'is total programs zero' do
+    it 'total programs is zero' do
       expect(assigns(:total_programs)).to be(0)
     end
   end
