@@ -4,7 +4,9 @@ describe StatsController do
       FactoryGirl.reload
       @program_cc = FactoryGirl.create(
         :program, name: 'CIÊNCIAS DA COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
-      5.times { FactoryGirl.create(:student, :code_sequence, program: @program_cc) }
+      5.times do
+        FactoryGirl.create(:student, :code_sequence, program: @program_cc, average_grade: 7.34)
+      end
       @program_ec = FactoryGirl.create(
         :program, name: 'ENGENHARIA DE COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
       3.times do
