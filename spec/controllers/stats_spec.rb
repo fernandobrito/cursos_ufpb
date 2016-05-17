@@ -1,7 +1,6 @@
 describe StatsController do
   context 'When has valid data' do
     before do
-      FactoryGirl.reload
       @program_cc = FactoryGirl.create(
         :program, name: 'CIÊNCIAS DA COMPUTAÇÃO (BACHARELADO) - CI/João Pessoa')
       5.times do

@@ -5,7 +5,7 @@ FactoryGirl.define do
     average_grade '7.34'
 
     trait :code_sequence do
-      sequence(:code) { |n| "1111830#{n}" }
+      sequence(:code, 11118303)
     end
   end
 end
