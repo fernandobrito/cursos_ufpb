@@ -6,7 +6,9 @@ class Student < ActiveRecord::Base
 
   validates :code, presence: true, uniqueness: true, numericality: { only_integer: true }
   validates :program, presence: true
-  validates :average_grade, allow_nil: true, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 10 }
+  validates :average_grade,
+            allow_nil: true,
+            numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 10 }
 
   validates_length_of :code, is: 8
 end

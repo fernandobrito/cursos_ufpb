@@ -9,8 +9,7 @@ class Api::CurriculaController < ApplicationController
   def show
     render json: open_file("curricula/#{params[:id]}.json")
   rescue
-    render json: { error: "Could not find any curriculum with code
-                   #{params[:code]}" }, status: 404
+    render json: { error: "Could not find any curriculum with code #{params[:id]}" }, status: 404
   end
 
   protected
