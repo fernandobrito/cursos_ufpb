@@ -24,6 +24,11 @@
       "description": "Your SendGrid password for sending mail.",
       "required": false
     },
+    "ADMIN_NAME": {
+      "description": "The administrator's name.",
+      "value": "Admin User",
+      "required": true
+    },
     "ADMIN_EMAIL": {
       "description": "The administrator's email address for signing in.",
       "value": "user@example.com",
