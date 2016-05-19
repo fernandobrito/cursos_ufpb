@@ -1,4 +1,4 @@
 # Be sure to restart your server when you modify this file.
 
 Rails.application.config.session_store :cookie_store,
-                                       key: '_ufpb_sigaa_api_session'
+                                       key: '_cursos_ufpb_session'
