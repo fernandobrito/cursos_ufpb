@@ -2,7 +2,7 @@
 
 **Pet-project. Use at your own risk. Low test coverage ratio.** 
 
-[![Build Status](https://travis-ci.org/fernandobrito/ufpb_sigaa_api.svg?branch=master)](https://travis-ci.org/fernandobrito/ufpb_sigaa_api) [![Coverage Status](https://coveralls.io/repos/github/fernandobrito/ufpb_sigaa_api/badge.svg?branch=master)](https://coveralls.io/github/fernandobrito/ufpb_sigaa_api?branch=master) [![Code Climate](https://codeclimate.com/github/fernandobrito/ufpb_sigaa_api/badges/gpa.svg?dummy=true)](https://codeclimate.com/github/fernandobrito/ufpb_sigaa_api) [![Issue Count](https://codeclimate.com/github/fernandobrito/ufpb_sigaa_api/badges/issue_count.svg?dummy=true)](https://codeclimate.com/github/fernandobrito/ufpb_sigaa_api)
+[![Build Status](https://travis-ci.org/fernandobrito/cursos_ufpb.svg?branch=master)](https://travis-ci.org/fernandobrito/cursos_ufpb) [![Coverage Status](https://coveralls.io/repos/github/fernandobrito/cursos_ufpb/badge.svg?branch=master)](https://coveralls.io/github/fernandobrito/cursos_ufpb?branch=master) [![Code Climate](https://codeclimate.com/github/fernandobrito/cursos_ufpb/badges/gpa.svg?dummy=true)](https://codeclimate.com/github/fernandobrito/cursos_ufpb) [![Issue Count](https://codeclimate.com/github/fernandobrito/cursos_ufpb/badges/issue_count.svg?dummy=true)](https://codeclimate.com/github/fernandobrito/cursos_ufpb)
 
 Web service to expose some data parsed from the academic web system (SIGAA) used on Brazilian public university Universidade Federal da Paraíba ([UFPB](http://www.ufpb.br)). 
 
