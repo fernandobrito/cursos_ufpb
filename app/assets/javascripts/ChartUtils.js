@@ -6,7 +6,8 @@
         'REPROVADO': '#FF0000',
         'MATRICULADO': '#FFFF00',
         'TRANCADO': '#808080',
-        'DISPENSADO': '#00FF00'
+        'DISPENSADO': '#00FF00',
+        'REP. FALTA': '#8B0707'
     };
 
     ChartUtils.getSituationsColors = function (situations) {
