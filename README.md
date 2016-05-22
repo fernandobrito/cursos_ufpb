@@ -1,4 +1,4 @@
-# UFPB SIGAA API
+# CURSOS UFPB
 
 **Pet-project. Use at your own risk. Low test coverage ratio.** 
 
