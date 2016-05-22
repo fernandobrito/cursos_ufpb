@@ -1,0 +1,5 @@
+.row
+  %h2= "Estudante: #{@student['code']}"
+
+  = render partial: 'admin/course_results/list', locals: { results: @results, title: 'Resultados' }
+

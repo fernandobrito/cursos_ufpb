@@ -1,0 +1,30 @@
+.row
+  %h2 Cursos
+
+  = render partial: 'form',
+           locals: { title: 'Adicionar Novo', action: 'Adicionar',
+                     program: Hash.new, form_target: admin_programs_path,
+                     form_method: 'POST' }
+
+  .panel.panel-default
+    .panel-heading Listagem
+    .panel-body
+      .col-md-10.col-md-offset-1
+        %table.table.table-striped.table-hover
+          %tr
+            %th.text-center Código
+            %th.text-center Nome
+            %th.text-center Ações
+
+          - @programs.each do |program|
+            %tr.text-center
+              %td= program['code']
+              %td= program['name']
+              %td
+                = link_to 'Visualizar', admin_program_path(program['code'])
+                = link_to 'Editar', edit_admin_program_path(program['code'])
+                = link_to 'Excluir', admin_program_path(program['code']),
+                    method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }
+
+
+

@@ -1,0 +1,26 @@
+.panel.panel-default
+  .panel-heading= title
+  .panel-body
+    .col-md-10.col-md-offset-1
+      %table.table.table-striped.table-hover
+        %tr
+          %th.text-center Estudante
+          %th.text-center Disciplina
+          %th.text-center Semestre
+          %th.text-center Nota
+          %th.text-center Situação
+          %th.text-center Ações
+
+        - results.each do |result|
+          %tr.text-center
+            %td= result['student_code']
+            %td= "#{result['course_code']} (#{result['course_name']})"
+            %td= result['year'] + '.' + result['semester']
+            %td= result['grade']
+            %td= result['situation']
+            %td
+              = link_to 'Editar', edit_admin_course_result_path(id: 'null', student_code: result['student_code'],
+                    course_code: result['course_code'], year: result['year'], semester: result['semester'])
+              = link_to 'Excluir', admin_course_result_path(id: 'null', student_code: result['student_code'],
+                    course_code: result['course_code'], year: result['year'], semester: result['semester']),
+                    method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }

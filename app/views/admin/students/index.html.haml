@@ -1,0 +1,10 @@
+.row
+  %h2 Estudantes
+
+  = render partial: 'form',
+           locals: { title: 'Adicionar Novo', action: 'Adicionar',
+                     student: Hash.new, form_target: admin_students_path,
+                     form_method: 'POST' }
+
+  = render partial: 'list', locals: { students: @students, title: 'Listagem' }
+

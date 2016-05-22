@@ -1,0 +1,21 @@
+.panel.panel-default
+  .panel-heading= title
+  .panel-body
+    .col-md-10.col-md-offset-1
+      %table.table.table-striped.table-hover
+        %tr
+          %th.text-center Código
+          %th.text-center Curso
+          %th.text-center CRA
+          %th.text-center Ações
+
+        - students.each do |student|
+          %tr.text-center
+            %td= student['student_code']
+            %td= "#{student['program_code']} (#{student['program_name']})"
+            %td= student['average_grade']
+            %td
+              = link_to 'Visualizar', admin_student_path(student['student_code'])
+              = link_to 'Editar', edit_admin_student_path(student['student_code'])
+              = link_to 'Excluir', admin_student_path(student['student_code']),
+                    method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }

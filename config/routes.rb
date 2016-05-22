@@ -17,6 +17,11 @@ Rails.application.routes.draw do
     root to: 'users#index'
 
     resources :users
+
+    resources :students, except: [:new]
+    resources :programs, except: [:new]
+    resources :courses, except: [:new]
+    resources :course_results, except: [:new]
   end
 
   namespace :api do

@@ -1,0 +1,34 @@
+.row
+  %h2 Disciplinas
+
+  = render partial: 'form',
+           locals: { title: 'Adicionar Novo', action: 'Adicionar',
+                     course: Hash.new, form_target: admin_courses_path,
+                     form_method: 'POST' }
+
+  .panel.panel-default
+    .panel-heading Listagem
+    .panel-body
+      .col-md-10.col-md-offset-1
+        %table.table.table-striped.table-hover
+          %tr
+            %th.text-center Código
+            %th.text-center Nome
+            %th.text-center Créditos
+            %th.text-center Carga Horária
+            %th.text-center Ações
+
+          - @courses.each do |course|
+            %tr.text-center
+              %td= course['code']
+              %td= course['name']
+              %td= course['credits']
+              %td= course['workload']
+              %td
+                = link_to 'Editar', edit_admin_course_path(course['code'])
+                = link_to 'Excluir', admin_course_path(course['code']),
+                    method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }
+
+
+
+

@@ -1,0 +1,24 @@
+.panel.panel-default
+  .panel-heading= title
+  .panel-body
+    = form_tag form_target, method: form_method, class: 'form-horizontal' do
+      .form-group
+        = label_tag 'code', 'Código', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'code', student['code'], class: 'form-control'
+
+      .form-group
+        = label_tag 'program_code', 'Programa', class: 'col-sm-2 control-label'
+        .col-sm-4
+          = select_tag 'program_code',
+            options_for_select(@programs.collect { |p| [p['name'], p['code']] }, selected: student['program_code']),
+            class: 'form-control'
+
+      .form-group
+        = label_tag 'average_grade', 'CRA', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'average_grade', student['average_grade'], class: 'form-control'
+
+      .form-group
+        .col-sm-offset-2.col-sm-10
+          %button.btn.btn-default{:type => 'submit'}= action

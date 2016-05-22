@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def layout_by_resource
-    if devise_controller? || is_a?(Admin::UsersController)
+    if devise_controller?
       'admin/application'
     else
       'application'

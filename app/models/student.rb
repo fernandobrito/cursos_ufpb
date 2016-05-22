@@ -2,7 +2,7 @@
 class Student < ActiveRecord::Base
   self.primary_key = :code
 
-  belongs_to :program
+  belongs_to :program, foreign_key: :program_code
 
   validates :code, presence: true, uniqueness: true, numericality: { only_integer: true }
   validates :program, presence: true

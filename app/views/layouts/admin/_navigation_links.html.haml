@@ -1,7 +1,27 @@
 - if user_signed_in?
-  %li= link_to 'Users', admin_users_path
-  %li= link_to 'Edit account', edit_user_registration_path
-  %li= link_to 'Sign out', destroy_user_session_path, :method=>'delete'
+  %ul.nav.navbar-nav
+    %li= link_to 'Estudantes', admin_students_path
+    %li= link_to 'Cursos', admin_programs_path
+    %li= link_to 'Disciplinas', admin_courses_path
+    %li= link_to 'Resultados', admin_course_results_path
+
+    %li.dropdown
+      %a.dropdown-toggle{'data-toggle': 'dropdown', href: '#', role: 'button'}
+        Relatórios
+        %span.caret
+      %ul.dropdown-menu
+        %li
+          %a{:href => "#"} Action
+        %li
+          %a{:href => "#"} Another action
+
+  %ul.nav.navbar-nav.navbar-right
+    %li= link_to 'Usuários', admin_users_path
+
+    %li= link_to 'Editar contar', edit_user_registration_path
+    %li= link_to 'Sair', destroy_user_session_path, :method=>'delete'
+
 - else
-  %li= link_to 'Sign in', new_user_session_path
-  %li= link_to 'Sign up', new_user_registration_path
+  %ul.nav.navbar-nav
+    %li= link_to 'Entrar', new_user_session_path
+    %li= link_to 'Registrar', new_user_registration_path

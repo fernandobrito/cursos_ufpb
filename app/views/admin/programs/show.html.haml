@@ -1,0 +1,5 @@
+.row
+  %h2= @program['name']
+
+  = render partial: 'admin/students/list', locals: { students: @students, title: 'Estudantes' }
+

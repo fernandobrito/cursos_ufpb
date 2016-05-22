@@ -1,0 +1,11 @@
+.row
+  %h2 Resultados
+
+  = render partial: 'form',
+           locals: { title: 'Adicionar Novo', action: 'Adicionar',
+                     result: Hash.new, form_target: admin_course_results_path,
+                     form_method: 'POST' }
+
+  = render partial: 'list', locals: { results: @results, title: 'Listagem' }
+
+

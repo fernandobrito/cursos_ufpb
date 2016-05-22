@@ -1,0 +1,7 @@
+.row
+  %h2 Cursos
+
+  = render partial: 'form',
+           locals: { title: 'Editar Existente', action: 'Editar',
+                     program: @program, form_target: admin_program_path(@program['code']),
+                     form_method: 'PUT' }

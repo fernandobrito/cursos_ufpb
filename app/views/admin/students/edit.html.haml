@@ -1,0 +1,7 @@
+.row
+  %h2 Estudantes
+
+  = render partial: 'form',
+           locals: { title: 'Editar Existente', action: 'Editar',
+                     student: @student, form_target: admin_student_path(@student['code']),
+                     form_method: 'PUT' }

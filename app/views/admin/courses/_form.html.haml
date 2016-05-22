@@ -1,0 +1,27 @@
+.panel.panel-default
+  .panel-heading= title
+  .panel-body
+    = form_tag form_target, method: form_method, class: 'form-horizontal' do
+      .form-group
+        = label_tag 'code', 'Código', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'code', course['code'], class: 'form-control'
+
+      .form-group
+        = label_tag 'name', 'Nome', class: 'col-sm-2 control-label'
+        .col-sm-6
+          = text_field_tag 'name', course['name'], class: 'form-control'
+
+      .form-group
+        = label_tag 'credits', 'Créditos', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'credits', course['credits'], class: 'form-control'
+
+      .form-group
+        = label_tag 'workload', 'Carga Horária', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'workload', course['workload'], class: 'form-control'
+
+      .form-group
+        .col-sm-offset-2.col-sm-10
+          %button.btn.btn-default{:type => 'submit'}= action

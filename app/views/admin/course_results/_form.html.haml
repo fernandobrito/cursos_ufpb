@@ -1,0 +1,40 @@
+.panel.panel-default
+  .panel-heading= title
+  .panel-body
+    = form_tag form_target, method: form_method, class: 'form-horizontal' do
+      .form-group
+        = label_tag 'student_code', 'Estudante', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = select_tag 'student_code',
+              options_for_select(@students.collect { |s| s['code'] }, selected: result['student_code']),
+              class: 'form-control'
+
+      .form-group
+        = label_tag 'course_code', 'Disciplina', class: 'col-sm-2 control-label'
+        .col-sm-2
+          .col-sm-4
+          = select_tag 'course_code',
+            options_for_select(@courses.collect { |p| [p['name'], p['code']] }, selected: result['course_code']),
+            class: 'form-control'
+
+      .form-group
+        = label_tag 'year', 'Ano', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'year', result['year'], class: 'form-control'
+        = label_tag 'semester', 'Semestre', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'semester', result['semester'], class: 'form-control'
+
+      .form-group
+        = label_tag 'grade', 'Nota', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'grade', result['grade'], class: 'form-control'
+
+      .form-group
+        = label_tag 'situation', 'Situação', class: 'col-sm-2 control-label'
+        .col-sm-2
+          = text_field_tag 'situation', result['situation'], class: 'form-control'
+
+      .form-group
+        .col-sm-offset-2.col-sm-10
+          %button.btn.btn-default{:type => 'submit'}= action

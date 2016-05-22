@@ -2,7 +2,7 @@
 %html
   %head
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
-    %title= content_for?(:title) ? yield(:title) : 'Ufpb Sigaa Api'
+    %title= content_for?(:title) ? yield(:title) : 'Cursos UFPB'
     %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Ufpb Sigaa Api'}"}
     = stylesheet_link_tag 'admin_application', media: 'all'
     = javascript_include_tag 'application'
@@ -12,6 +12,8 @@
       = render 'layouts/admin/navigation'
     %main{:role => "main"}
       = render 'layouts/shared/messages'
-      = yield
+
+      .container
+        = yield
 
     = render 'layouts/shared/ga' if ENV['RAILS_ENV'] == 'production'
