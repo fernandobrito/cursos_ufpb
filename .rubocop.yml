@@ -8,7 +8,19 @@ AllCops:
    - 'bin/*'
    - 'db/seeds.rb'
    - 'db/schema.rb'
+   - 'db/migrate/*.rb'
+   - 'config/initializers/*.rb'
    - 'vendor/bundle/**/*'
 
 Metrics/LineLength:
   Max: 100
+
+Style/NumericLiterals:
+  MinDigits: 9
+
+Style/RedundantReturn:
+  AllowMultipleReturnValues: true
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 20

@@ -1,7 +1,7 @@
 module Rack
   module Test
     class UploadedFile
-      def initialize(path, content_type = "text/plain", binary = false)
+      def initialize(path, content_type = 'text/plain', binary = false)
         raise "#{path} file does not exist" unless ::File.exist?(path)
 
         @content_type = content_type
