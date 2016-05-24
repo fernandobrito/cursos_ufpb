@@ -53,9 +53,20 @@ class TranscriptsController < ApplicationController
 
     average_grade = parser.course_results.average_up_to(parser.course_results.semesters.last)
 
-    program = Program.find_or_create_by!(name: program_name)
-    program.students.find_or_create_by!(code: parsed_student.id,
-                                        average_grade: average_grade)
+    #  Delete previous record
+    delete_student(parsed_student.id)
+
+    # Find course
+    program_code = find_or_create_program(program_name)
+
+    # Create student
+    create_student(parsed_student.id, program_code, average_grade)
+
+    # Create courses
+    @courses.each do |course_result|
+      create_course(course_result)
+      create_course_result(parsed_student.id, course_result)
+    end
 
     # Save file on Dropbox
     if ENV['RAILS_ENV'] == 'production' && !is_sample_file
@@ -70,5 +81,81 @@ class TranscriptsController < ApplicationController
     render :show
 
     flash[:warning] = nil
+  end
+
+  protected
+  def delete_student(code)
+    query = "DELETE FROM students WHERE (code = '#{code}')"
+    ActiveRecord::Base.connection.execute(query)
+  end
+
+  def find_or_create_program(program_name)
+    # Try to find
+    query = "SELECT *
+             FROM programs
+             WHERE (name = '#{program_name}')"
+
+    results = ActiveRecord::Base.connection.execute(query)
+
+    if results.ntuples > 0
+      puts "Program found. #{results[0]['code']}"
+      return results[0]['code']
+    end
+
+    # Could not find, create new
+    query = "INSERT INTO programs(name)
+             VALUES ('#{program_name}')"
+
+    ActiveRecord::Base.connection.execute(query)
+
+    # Find code
+    query = "SELECT *
+             FROM programs
+             WHERE (name = '#{program_name}')"
+
+    results = ActiveRecord::Base.connection.execute(query)
+
+    return results[0]['code']
+  end
+
+  def create_course(course)
+    # Try to find
+    query = "SELECT *
+             FROM courses
+             WHERE (code = '#{course.code}')"
+
+    results = ActiveRecord::Base.connection.execute(query)
+
+    if results.ntuples > 0
+      puts "Course found. #{results[0]['code']}"
+      return results[0]['code']
+    end
+
+    # Could not find, create new
+    query = "INSERT INTO courses(code, name, credits, workload)
+             VALUES ('#{course.code}', '#{course.name}', #{course.credits}, #{course.workload})"
+
+    ActiveRecord::Base.connection.execute(query)
+  end
+
+  def create_student(code, program_code, average_grade)
+    query = "INSERT INTO students(code, program_code, average_grade)
+             VALUES (#{code}, #{program_code}, #{average_grade})"
+
+    ActiveRecord::Base.connection.execute(query)
+  end
+
+  def create_course_result(student_code, course)
+    year = course.semester.split('.')[0]
+    semester = course.semester.split('.')[1]
+
+    grade = course.grade == '--' ? 'NULL' : course.grade
+
+    query = "INSERT INTO course_results
+             (student_code, course_code, year, semester, grade, situation)
+             VALUES (#{student_code}, '#{course.code}',
+                     #{year}, #{semester}, #{grade}, '#{course.situation}')"
+
+    ActiveRecord::Base.connection.execute(query)
   end
 end

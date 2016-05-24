@@ -19,8 +19,15 @@ Rails.application.routes.draw do
     resources :users
 
     resources :students, except: [:new]
-    resources :programs, except: [:new]
-    resources :courses, except: [:new]
+
+    resources :programs, except: [:new] do
+      get 'destroy_all', on: :collection
+    end
+
+    resources :courses, except: [:new] do
+      get 'destroy_all', on: :collection
+    end
+
     resources :course_results, except: [:new]
   end
 

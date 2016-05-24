@@ -26,5 +26,10 @@
                 = link_to 'Excluir', admin_program_path(program['code']),
                     method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }
 
+      .text-center
+        = link_to 'Deletar todos', destroy_all_admin_programs_path,
+                      data: { confirm: 'Tem certeza que deseja excluir?' },
+                      class: 'btn btn-large btn-danger'
+
 
 

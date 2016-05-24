@@ -88,4 +88,17 @@ class Admin::ProgramsController < Admin::ApplicationController
   rescue ActiveRecord::StatementInvalid => e
     redirect_to admin_programs_path, alert: "Algo deu errado. #{e}"
   end
+
+  #
+  # DESTROY_ALL
+  #
+  def destroy_all
+    query = "DELETE FROM programs"
+
+    ActiveRecord::Base.connection.execute(query)
+
+    redirect_to admin_programs_path, notice: "Todos os registros excluídos com sucesso."
+  rescue ActiveRecord::StatementInvalid => e
+    redirect_to admin_programs_path, alert: "Algo deu errado. #{e}"
+  end
 end
