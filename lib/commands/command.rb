@@ -5,4 +5,8 @@ class Command
     @id = Time.now.to_i.to_s
     @created_at = Time.now
   end
+
+  def do ; end
+  def undo ; end
+  def description ; end
 end

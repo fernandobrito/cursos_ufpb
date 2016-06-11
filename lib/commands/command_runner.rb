@@ -1,4 +1,4 @@
-module CommandRunner
+class CommandRunner
   def self.execute(command)
     puts "[CommandRunner] Executing command of type #{command.class}"
     command.do()

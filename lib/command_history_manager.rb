@@ -21,6 +21,14 @@ class CommandHistoryManager
     @history = @history[0..LIST_SIZE]
   end
 
+  def register_and_execute_command(command)
+    # Execute command
+    CommandRunner.execute(command)
+
+    # Register command
+    register_command(command)
+  end
+
   def undo_command_by_id(id)
     # Find command
     command = @history.find { |c| c.id == id }

@@ -27,8 +27,7 @@ class Admin::ProgramsController < Admin::ApplicationController
     program = Program.new(admin_program_params)
     command = CreateProgramCommand.new(program)
 
-    if CommandRunner.execute(command)
-      chm.register_command(command)
+    if chm.register_and_execute_command(command)
       redirect_to [:admin, program], notice: 'Program was successfully created.'
     else
       render :new
