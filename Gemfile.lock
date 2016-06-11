@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/fernandobrito/sigaa_parser.git
-  revision: c41d968df329cd1b59e8d94f650e39e318be1d23
+  revision: e2bca67ed93955119d51afe499591aa6dbb10fd8
   specs:
     sigaa_parser (0.0.3)
       activesupport (~> 4.2)
       dotenv (~> 2.1)
+      interface
       mechanize (~> 2.7)
       pdf-reader (~> 1.4)
       watir-webdriver
@@ -166,6 +167,7 @@ GEM
       domain_name (~> 0.5)
     i18n (0.7.0)
     interception (0.5)
+    interface (1.0.4)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -195,9 +197,9 @@ GEM
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
     method_source (0.8.2)
-    mime-types (2.99.1)
+    mime-types (2.99.2)
     mini_portile2 (2.0.0)
-    minitest (5.8.4)
+    minitest (5.9.0)
     multi_json (1.11.3)
     nenv (0.3.0)
     net-http-digest_auth (1.4)
@@ -228,7 +230,6 @@ GEM
     pry-rescue (1.4.2)
       interception (>= 0.5)
       pry
-    puma (3.4.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
@@ -405,7 +406,6 @@ DEPENDENCIES
   pg
   pry-rails
   pry-rescue
-  puma
   quiet_assets
   rack-cors
   rails (= 4.2.6)

@@ -1,5 +1,5 @@
 # Controller for users (admin) operations
-class Admin::UsersController < ApplicationController
+class Admin::UsersController < Admin::ApplicationController
   before_action :authenticate_user!
   before_action :find_resource, only: [:show, :destroy]
   before_action :authorize, only: [:show, :destroy]

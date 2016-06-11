@@ -1,0 +1,20 @@
+.row
+  %h2 History
+
+  .panel.panel-default
+    .panel-heading List
+    .panel-body
+      .col-md-10.col-md-offset-1
+        %table.table.table-striped.table-hover
+          %tr
+            %th.text-center Description
+            %th.text-center Created at
+            %th.text-center Actions
+
+          - @commands.each do |command|
+            %tr.text-center
+              %td= command.description
+              %td= command.created_at
+              %td
+                = link_to 'Undo', admin_command_path(command.id),
+                    method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }

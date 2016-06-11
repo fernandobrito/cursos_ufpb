@@ -27,7 +27,7 @@ module CursosUfpb
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
-    config.eager_load_paths += [Rails.root.join('lib/')]
+    config.eager_load_paths += [Rails.root.join('lib/'), Rails.root.join('lib/commands')]
 
     # Set Time.zone default to the specified zone and make
     # Active Record auto-convert to this zone.

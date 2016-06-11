@@ -1,0 +1,21 @@
+%h1 Listing Programs
+
+%table.table.table-striped.table-hover
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+
+  %tbody
+    - @admin_programs.each do |admin_program|
+      %tr
+        %td= admin_program.name
+        %td= link_to 'Show', [:admin, admin_program]
+        %td= link_to 'Edit', edit_admin_program_path(admin_program)
+        %td= link_to 'Destroy', [:admin, admin_program], :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Program', new_admin_program_path

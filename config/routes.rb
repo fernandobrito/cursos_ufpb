@@ -16,7 +16,9 @@ Rails.application.routes.draw do
   namespace :admin do
     root to: 'users#index'
 
-    resources :users
+    resources :users, :programs
+
+    resources :commands, only: [:index, :destroy]
   end
 
   namespace :api do
