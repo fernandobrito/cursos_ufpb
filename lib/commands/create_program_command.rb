@@ -10,7 +10,7 @@ class CreateProgramCommand < Command
     "Created program #{@program.name}"
   end
 
-  def do
+  def do(*params)
     @program.save
   end
 
