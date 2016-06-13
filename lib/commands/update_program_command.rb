@@ -1,8 +1,7 @@
 class UpdateProgramCommand < Command
-
   def initialize(program, new_attributes)
     super()
-    
+
     @program = program
     @new_attributes = new_attributes
     @memento = nil

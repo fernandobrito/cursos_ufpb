@@ -1,8 +1,10 @@
+require 'securerandom'
+
 class Command
   attr_accessor :created_at, :id
 
   def initialize
-    @id = Time.now.to_i.to_s
+    @id = SecureRandom.hex
     @created_at = Time.now
   end
 

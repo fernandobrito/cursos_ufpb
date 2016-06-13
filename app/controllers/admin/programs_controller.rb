@@ -48,8 +48,28 @@ class Admin::ProgramsController < Admin::ApplicationController
 
   # DELETE /admin/programs/1
   def destroy
-    @admin_program.destroy
+    chm = CommandHistoryManager.get_instance()
+    command = DeleteProgramCommand.new(@admin_program)
+
+    chm.register_and_execute_command(command)
+
     redirect_to admin_programs_url, notice: 'Program was successfully destroyed.'
+  end
+
+  def destroy_all
+    chm = CommandHistoryManager.get_instance()
+    compound_command = DeleteAllProgramsCommand.new()
+
+    Program.all.each do |program|
+      command = DeleteProgramCommand.new(program)
+      compound_command.add_command(command)
+    end
+
+    if chm.register_and_execute_command(compound_command)
+      redirect_to admin_programs_path, notice: 'All programs were deleted successfully.'
+    else
+      redirect_to admin_programs_path, notice: 'Something went wrong.'
+    end
   end
 
   private

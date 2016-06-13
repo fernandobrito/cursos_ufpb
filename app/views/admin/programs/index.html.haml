@@ -16,6 +16,13 @@
         %td= link_to 'Edit', edit_admin_program_path(admin_program)
         %td= link_to 'Destroy', [:admin, admin_program], :method => :delete, :data => { :confirm => 'Are you sure?' }
 
+.text-center
+  = link_to 'Destroy all', destroy_all_admin_programs_path,
+                :method => :delete,
+                data: { confirm: 'Are you sure?' },
+                class: 'btn btn-large btn-danger'
+
+
 %br
 
 = link_to 'New Program', new_admin_program_path

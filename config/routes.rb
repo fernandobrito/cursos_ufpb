@@ -16,7 +16,11 @@ Rails.application.routes.draw do
   namespace :admin do
     root to: 'users#index'
 
-    resources :users, :programs
+    resources :users
+
+    resources :programs do
+      delete 'destroy_all', on: :collection
+    end
 
     resources :commands, only: [:index, :destroy]
   end
