@@ -3,7 +3,7 @@ class CompoundCommand < Command
   def initialize
     super()
 
-    @commands = []
+    @commands_list = CommandsList.new
   end
 
   def description
@@ -11,17 +11,23 @@ class CompoundCommand < Command
   end
 
   def add_command(command)
-    @commands << command
+    @commands_list.add_command(command)
   end
 
   def do
-    @commands.each do |command|
+    iterator = @commands_list.get_iterator
+
+    while(iterator.has_next?)
+      command = iterator.next
       CommandRunner.execute(command)
     end
   end
 
   def undo
-    @commands.each do |command|
+    iterator = @commands_list.get_iterator
+
+    while(iterator.has_next?)
+      command = iterator.next
       CommandRunner.unexecute(command)
     end
   end

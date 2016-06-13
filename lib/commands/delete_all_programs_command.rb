@@ -4,6 +4,6 @@ class DeleteAllProgramsCommand < CompoundCommand
   end
 
   def description
-    "Delete #{@commands.size} programs"
+    "Delete #{@commands_list.size} programs"
   end
 end
