@@ -6,7 +6,7 @@ class Command
     @created_at = Time.now
   end
 
-  def do(*params) ; end
+  def do ; end
   def undo ; end
   def description ; end
 end

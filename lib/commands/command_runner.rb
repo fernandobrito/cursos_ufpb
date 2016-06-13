@@ -1,7 +1,7 @@
 class CommandRunner
-  def self.execute(command, *params)
+  def self.execute(command)
     puts "[CommandRunner] Executing command of type #{command.class}"
-    command.do(params)
+    command.do()
   end
 
   def self.unexecute(command)

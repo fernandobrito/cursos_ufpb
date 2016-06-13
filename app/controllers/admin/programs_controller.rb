@@ -37,9 +37,9 @@ class Admin::ProgramsController < Admin::ApplicationController
   # PATCH/PUT /admin/programs/1
   def update
     chm = CommandHistoryManager.get_instance()
-    command = UpdateProgramCommand.new(@admin_program)
+    command = UpdateProgramCommand.new(@admin_program, admin_program_params)
 
-    if chm.register_and_execute_command(command, admin_program_params)
+    if chm.register_and_execute_command(command)
       redirect_to [:admin, @admin_program], notice: 'Program was successfully updated.'
     else
       render :edit

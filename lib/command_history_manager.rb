@@ -21,9 +21,9 @@ class CommandHistoryManager
     @history = @history[0..LIST_SIZE]
   end
 
-  def register_and_execute_command(command, *params)
+  def register_and_execute_command(command)
     # Execute command
-    CommandRunner.execute(command, params)
+    CommandRunner.execute(command)
 
     # Register command
     register_command(command)

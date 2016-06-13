@@ -1,19 +1,20 @@
 class UpdateProgramCommand < Command
 
-  def initialize(program)
+  def initialize(program, new_attributes)
     super()
-
+    
     @program = program
+    @new_attributes = new_attributes
     @memento = nil
   end
 
   def description
-    "Updated program #{@program.name}"
+    "Update program #{@program.name}"
   end
 
-  def do(*params)
+  def do
     @memento = @program.create_memento
-    @program.update(eval(params.join))
+    @program.update(@new_attributes)
   end
 
   def undo
