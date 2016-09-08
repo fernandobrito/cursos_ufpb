@@ -53,24 +53,27 @@ class TranscriptsController < ApplicationController
 
     average_grade = parser.course_results.average_up_to(parser.course_results.semesters.last)
 
-    ActiveRecord::Base.transaction do
-      program = Program.find_or_create_by!(name: program_name)
-      student = program.students.find_or_create_by!(code: parsed_student.id)
+    unless is_sample_file
+      ActiveRecord::Base.transaction do
+        program = Program.find_or_create_by!(name: program_name)
+        student = program.students.find_or_create_by!(code: parsed_student.id)
 
-      student.average_grade = average_grade
-      student.save!
+        student.average_grade = average_grade
+        student.save!
+      end
+
+      # Save file on Dropbox
+      if ENV['RAILS_ENV'] == 'production'
+        filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
+        FileStorage.store(filename, params[:file].tempfile)
+      end
+
+      flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados
+                        suficientes para calcular estatísticas como a comparação
+                        do seu CRA com a dos alunos do seu curso.
+                        Convide seus colegas para liberar este recurso!"
     end
 
-    # Save file on Dropbox
-    if ENV['RAILS_ENV'] == 'production' && !is_sample_file
-      filename = "#{course_results.student.id}_#{course_results.semesters.last.sub('.', '_')}.pdf"
-      FileStorage.store(filename, params[:file].tempfile)
-    end
-
-    flash[:warning] = "O seu curso '#{program_name}' ainda não possui dados
-                      suficientes para calcular estatísticas como a comparação
-                      do seu CRA com a dos alunos do seu curso.
-                      Convide seus colegas para liberar este recurso!"
     render :show
 
     flash[:warning] = nil
