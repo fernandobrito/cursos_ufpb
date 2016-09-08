@@ -53,11 +53,13 @@ class TranscriptsController < ApplicationController
 
     average_grade = parser.course_results.average_up_to(parser.course_results.semesters.last)
 
-    program = Program.find_or_create_by!(name: program_name)
-    student = program.students.find_or_create_by!(code: parsed_student.id)
+    ActiveRecord::Base.transaction do
+      program = Program.find_or_create_by!(name: program_name)
+      student = program.students.find_or_create_by!(code: parsed_student.id)
 
-    student.average_grade = average_grade
-    student.save!
+      student.average_grade = average_grade
+      student.save!
+    end
 
     # Save file on Dropbox
     if ENV['RAILS_ENV'] == 'production' && !is_sample_file
