@@ -1,5 +1,13 @@
 #chart-bubble-courses.chart
 
+<!-- This style will hide bubblechart tooltips third elements that currently happens 
+to be the duplicated field. !!!Warning: this is a temporary visual fix, this style can lead to errors -->
+<style>
+  div#chart-bubble-courses > div > div:last-child li:nth-child(3){
+    display:none;
+  }
+</style>
+
 = content_for :js_code do
   :javascript
     google.charts.setOnLoadCallback(drawBubbleCoursesChart);
@@ -10,6 +18,7 @@
 
       // Set chart options
       var options = {
+        tooltip: { isHtml: true }, //It will make the chart tooltip be html rendered instead of svg rendered
         title: 'Disciplinas cursadas ao longo dos semestres',
         titleTextStyle: { fontSize: 19 },
         hAxis: {
