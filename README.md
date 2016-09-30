@@ -79,10 +79,17 @@ App is automaticly deployed to Heroku using branch `deploy`. Please do not break
 * Uma disciplina é chamada de 'Course';
 * Um centro ao qual o curso pertence é chamado de 'Faculty'.
 
-### To-do
-* Add CI integration (and activate it on Heroku)
+## Contributing
+
+1. Fork it
+2. Create your feature branch with specs (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 ## Credits
+
+Some parts of Cursos UFPB are influenced by the ([Cursos UFCG](http://analytics.lsd.ufcg.edu.br/cursosufcg/#/)) project. Credits to the ([Analytics Laboratory](https://www.facebook.com/analytics.ufcg)).
 
 ## License
 

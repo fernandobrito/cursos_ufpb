@@ -6,6 +6,9 @@ cache:
   - bundler
   - apt
 
+services:
+  - postgresql
+
 git:
   depth: 3
 
