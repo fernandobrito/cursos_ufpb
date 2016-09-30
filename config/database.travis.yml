@@ -1,0 +1,11 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 5
+
+test:
+  <<: *default
+  database: cursos_ufpb_test
+  username:
+  password:

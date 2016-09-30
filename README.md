@@ -89,7 +89,7 @@ App is automaticly deployed to Heroku using branch `deploy`. Please do not break
 
 ## Credits
 
-Some parts of Cursos UFPB are influenced by the ([Cursos UFCG](http://analytics.lsd.ufcg.edu.br/cursosufcg/#/)) project. Credits to the ([Analytics Laboratory](https://www.facebook.com/analytics.ufcg)).
+Some parts of Cursos UFPB are influenced by the [Cursos UFCG](http://analytics.lsd.ufcg.edu.br/cursosufcg/#/) project. Credits to the [Analytics Laboratory](https://www.facebook.com/analytics.ufcg).
 
 ## License
 

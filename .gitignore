@@ -85,3 +85,5 @@ pickle-email-*.html
 *~
 /.byebug_history
 /spec/examples.txt
+
+database.yml
