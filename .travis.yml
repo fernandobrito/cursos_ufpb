@@ -11,6 +11,7 @@ services:
 
 before_script:
   - cp config/database.travis.yml config/database.yml
+  - psql -c 'create database cursos_ufpb_test;' -U postgres
 
 git:
   depth: 3
