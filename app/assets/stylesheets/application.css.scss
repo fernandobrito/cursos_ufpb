@@ -33,3 +33,12 @@ p, ul {
 }
 
 .modal-dialog h4 { margin: 0 }
+
+/* 
+ * The style rules bellow will hide bubblechart tooltips third elements that currently
+ * happens to be the duplicated field. !!!Warning: this is a temporary visual fix,
+ * this style can lead to errors
+ */
+#chart-bubble-courses > div > div:last-child li:nth-child(3){
+  display:none;
+}

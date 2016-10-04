@@ -12,6 +12,7 @@
       var options = {
         title: 'Disciplinas cursadas ao longo dos semestres',
         titleTextStyle: { fontSize: 19 },
+        tooltip: { isHtml: true },
         hAxis: {
           title: 'Semestre',
           ticks: $.map(gon.bubble, function(val) { return val[1] }),
